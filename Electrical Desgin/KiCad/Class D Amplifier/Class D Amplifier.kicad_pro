@@ -313,6 +313,18 @@
       {
         "netclass": "Speaker",
         "pattern": "/OFILTER"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RINP"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/RINN"
+      },
+      {
+        "netclass": "Speaker",
+        "pattern": "/SPKR"
       }
     ]
   },
