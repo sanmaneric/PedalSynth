@@ -6,3 +6,8 @@ PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong
 
 # License
 PedalSynth is licensed under a GNU/GPL v3 license.
+
+# Andrew!
+
+Here's our recent assignments:
+ - PDS: [View our PDS PDF](https://github.com/sanmaneric/PedalSynth/blob/main/Product%20Development/ProductDescriptionSpecification-Team8.pdf)
