@@ -1,1 +1,0 @@
-Decomposition drawings are here. The drawings were created with [drawings.net](https://drawings.net).
