@@ -1,5 +1,18 @@
-# PedalSynth
-A combination digital &amp; analog guitar-controlled synthesizer in the form factor of a guitar pedal.
+<h1 align="center">
+  :notes: PedalSynth :notes:
+</h1>
+
+<h2 align="center">
+  A combination digital and analog guitar-controlled synthesizer in the form factor of a guitar pedal, with integrated speaker amplifier.
+</h2>
+
+<div align="center">
+
+  <a href="https://github.com/lifeparticle/Markdown-Cheatsheet/actions/workflows/readme-checker.yml">
+    <img src="https://github.com/lifeparticle/Markdown-Cheatsheet/actions/workflows/readme-checker.yml/badge.svg" alt=".github/workflows/readme-checker.yml">
+  </a>
+
+</div>
 
 # Authors
 PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong Vo as part of ECE411 at Portland State University.
