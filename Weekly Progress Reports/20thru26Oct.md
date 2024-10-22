@@ -10,7 +10,7 @@ We focused on getting our Project Design Specification hashed out and uploaded i
 
 ## Wednesday
 
-## Thursday (:hamburger: Team Food Tour Day :cookie:)
+## Thursday ( :hamburger: Team Food Tour Day :cookie: )
 #### :round_pushpin: Today's Food Tour Destination:
 #### :star: Team Food Review: 
 
