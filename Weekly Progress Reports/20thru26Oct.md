@@ -16,5 +16,5 @@ We focused on getting our Project Design Specification hashed out and uploaded i
 
 ## Friday
 
-## Satuday
+## Saturday
 Nothing to report, it's the weekend. :sleeping:
