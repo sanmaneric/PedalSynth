@@ -15,7 +15,7 @@
 </div>
 
 # Authors
-PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong Vo as part of ECE411 at <a href="https://pdx.edu/engineering" style="color: 6d8d24; text-decoration: underline;text-decoration-style: dotted;">Portland State University</a>
+PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong Vo as part of ECE411 at <a href="https://pdx.edu/engineering" style="color: green; text-decoration: underline;text-decoration-style: dotted;">Portland State University</a>
 .
 
 # License
