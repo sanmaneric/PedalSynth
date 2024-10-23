@@ -13,6 +13,14 @@
   </a>
 
 </div>
+# :round_pushpin: Start Here: Videos
+## Watch these videos to learn how to use KiCad in this order:
+ 1. [PcbCupid - Beginner: Learn KiCad in 2 hours](https://www.youtube.com/watch?v=KgmsvopC9Qk)
+ 2. [Phil's Lab - A bit more advnanced: STM32 PCB Design Example](https://www.youtube.com/watch?v=aVUqaB0IMh4)
+ 3. [ElectrArc240 - Making Neat Schematics & Working with Multiple Sheets](https://www.youtube.com/watch?v=_iz7rFTQ4Ec)
+ 
+## Other Useful KiCad Videos:
+
 
 # Schematic Editor
 ## Keyboard Shortcuts:
