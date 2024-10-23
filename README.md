@@ -23,4 +23,5 @@ PedalSynth is licensed under a GNU/GPL v3 license.
 
 # Andrew's Corner :)
 Here's our recent assignments:
- - PDS: [View our PDS PDF](https://github.com/sanmaneric/PedalSynth/blob/main/Product%20Development/ProductDescriptionSpecification-Team8.pdf)
+ - :white_check_mark: [View our PDS](https://github.com/sanmaneric/PedalSynth/blob/main/Product%20Development/ProductDescriptionSpecification-Team8.pdf)
+ - :date: [Browse Weekly Progress Reports](https://github.com/sanmaneric/PedalSynth/tree/main/Weekly%20Progress%20Reports)
