@@ -738,9 +738,6 @@
   (junction (at 100.33 37.465) (diameter 0) (color 0 0 0 0)
     (uuid 2061e933-b246-44d4-9df6-4f8d5db7ee2f)
   )
-  (junction (at 87.63 86.995) (diameter 0) (color 0 0 0 0)
-    (uuid 21a5132b-1d31-4cba-9d43-a53f4821950f)
-  )
   (junction (at 118.745 73.66) (diameter 0) (color 0 0 0 0)
     (uuid 24362bfb-6784-4ea4-a9e3-6bbbcdbaee25)
   )
@@ -780,6 +777,9 @@
   (junction (at 95.25 86.995) (diameter 0) (color 0 0 0 0)
     (uuid 7cc047b6-10ae-43de-bb5e-fe66cf6bc6dc)
   )
+  (junction (at 87.63 86.995) (diameter 0) (color 0 0 0 0)
+    (uuid 7d075ace-bd8a-4414-8bda-0a6bdd09de0f)
+  )
   (junction (at 95.25 79.375) (diameter 0) (color 0 0 0 0)
     (uuid 93487e4d-fc6b-4968-be2c-305694a912ec)
   )
@@ -801,11 +801,11 @@
   (junction (at 99.695 63.5) (diameter 0) (color 0 0 0 0)
     (uuid be2440fb-77e8-4ebb-9178-423933d85676)
   )
-  (junction (at 87.63 79.375) (diameter 0) (color 0 0 0 0)
-    (uuid c77c4711-900b-4d20-bf12-00e324423f30)
-  )
   (junction (at 104.14 86.995) (diameter 0) (color 0 0 0 0)
     (uuid c7f9b364-3e6f-4d21-97e2-8de061b9be90)
+  )
+  (junction (at 87.63 79.375) (diameter 0) (color 0 0 0 0)
+    (uuid ddcb288b-0a1a-4b38-852e-b271c68eb968)
   )
   (junction (at 174.625 152.4) (diameter 0) (color 0 0 0 0)
     (uuid e5cd4fb1-3819-4006-bb3d-a2de1ca20b8a)
@@ -853,6 +853,10 @@
   (wire (pts (xy 172.72 90.17) (xy 179.705 90.17))
     (stroke (width 0) (type default))
     (uuid 08d7e973-35cb-4fc0-b24b-093bb1897f8f)
+  )
+  (wire (pts (xy 132.715 37.465) (xy 137.795 37.465))
+    (stroke (width 0) (type default))
+    (uuid 0a105dfa-c70a-4977-b938-415b910b3246)
   )
   (wire (pts (xy 106.68 152.4) (xy 106.68 156.845))
     (stroke (width 0) (type default))
@@ -913,6 +917,10 @@
   (wire (pts (xy 135.255 149.86) (xy 137.16 149.86))
     (stroke (width 0) (type default))
     (uuid 2e97b1d4-4820-4186-a8cf-3d5af0a23656)
+  )
+  (wire (pts (xy 87.63 86.995) (xy 95.25 86.995))
+    (stroke (width 0) (type default))
+    (uuid 3078ccfb-4f6f-42e9-bc3e-e7d6abb1a1be)
   )
   (wire (pts (xy 100.33 38.735) (xy 99.06 38.735))
     (stroke (width 0) (type default))
@@ -990,10 +998,6 @@
     (stroke (width 0) (type default))
     (uuid 567688e0-59e8-4464-8d69-31db2e1bf992)
   )
-  (wire (pts (xy 137.16 69.85) (xy 128.905 69.85))
-    (stroke (width 0) (type default))
-    (uuid 5726227e-45a5-4b3e-bcd8-111abc5e7eae)
-  )
   (wire (pts (xy 132.08 116.205) (xy 132.08 118.745))
     (stroke (width 0) (type default))
     (uuid 5d839312-d917-4dbe-ab5c-5a6215827b2d)
@@ -1069,10 +1073,6 @@
   (wire (pts (xy 130.81 129.54) (xy 130.81 158.75))
     (stroke (width 0) (type default))
     (uuid 8225e137-ec43-40cb-b624-8e5e4677b025)
-  )
-  (wire (pts (xy 132.715 37.465) (xy 137.795 37.465))
-    (stroke (width 0) (type default))
-    (uuid 82b67841-0c81-4c56-ad25-c6b194b6bae4)
   )
   (wire (pts (xy 95.25 88.9) (xy 104.14 88.9))
     (stroke (width 0) (type default))
@@ -1150,10 +1150,6 @@
     (stroke (width 0) (type default))
     (uuid b05b6888-5df7-437c-8a0b-f2ed3e44ed1d)
   )
-  (wire (pts (xy 81.915 86.995) (xy 87.63 86.995))
-    (stroke (width 0) (type default))
-    (uuid b1d5ed89-dd39-4f34-a1b0-bdb0c9ad32ab)
-  )
   (wire (pts (xy 99.695 73.025) (xy 99.695 72.39))
     (stroke (width 0) (type default))
     (uuid b2c7a15b-a27f-4bcf-81a6-426005153874)
@@ -1194,10 +1190,6 @@
     (stroke (width 0) (type default))
     (uuid c5dd971d-08b2-4014-b612-b4b1883e4342)
   )
-  (wire (pts (xy 87.63 79.375) (xy 95.25 79.375))
-    (stroke (width 0) (type default))
-    (uuid c641cf5f-f282-42c5-a2f7-194cefb82603)
-  )
   (wire (pts (xy 132.08 107.95) (xy 137.16 107.95))
     (stroke (width 0) (type default))
     (uuid caf9d35b-4077-46a0-a2f2-417f1d5ad9ac)
@@ -1230,6 +1222,10 @@
     (stroke (width 0) (type default))
     (uuid d2310fe9-8f39-49d3-a206-ea383ee11926)
   )
+  (wire (pts (xy 87.63 79.375) (xy 95.25 79.375))
+    (stroke (width 0) (type default))
+    (uuid d3b6cf5d-e1e4-4072-8eb2-d102ab7f1617)
+  )
   (wire (pts (xy 100.33 37.465) (xy 101.6 37.465))
     (stroke (width 0) (type default))
     (uuid d4d7a7d3-dcab-4890-9d41-ee5dfc2dfb70)
@@ -1237,6 +1233,10 @@
   (wire (pts (xy 135.255 152.4) (xy 137.16 152.4))
     (stroke (width 0) (type default))
     (uuid d673be19-f6bc-4803-8779-740929c6b0f9)
+  )
+  (wire (pts (xy 128.905 69.85) (xy 137.16 69.85))
+    (stroke (width 0) (type default))
+    (uuid d687535f-08dc-451e-ad9f-f95329e82a53)
   )
   (wire (pts (xy 90.805 24.13) (xy 95.25 24.13))
     (stroke (width 0) (type default))
@@ -1290,7 +1290,7 @@
     (stroke (width 0) (type default))
     (uuid f09fa241-f6b1-41ff-b6b4-0c2f078db443)
   )
-  (wire (pts (xy 87.63 86.995) (xy 95.25 86.995))
+  (wire (pts (xy 81.915 86.995) (xy 87.63 86.995))
     (stroke (width 0) (type default))
     (uuid f4661327-5b4c-4c07-930e-abf7f3991f39)
   )
@@ -2194,7 +2194,7 @@
     (uuid 9fc8eaae-08cf-4998-a3b3-78f8dad15741)
   )
   (text "TI 20W Class-D\nAudio Amplifier" (at 146.05 116.84 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.ti.com/lit/ds/symlink/tpa3136d2.pdf?ts=1729160039477"))
     (uuid d6a8cf7c-923a-4e30-8059-7394e7976727)
   )
   (text "Output Filtering" (at 173.99 76.835 0)
@@ -2206,11 +2206,11 @@
     (uuid f4bef332-59f8-4bc5-9fe0-ff14a0c0eb34)
   )
 
-  (label "PWR" (at 71.12 98.425 0) (fields_autoplaced)
+  (label "GND" (at 71.12 98.425 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 0d5be04c-2f61-4b6f-8f81-da9c04e942a2)
   )
-  (label "SPKR" (at 203.835 85.09 0) (fields_autoplaced)
+  (label "SPK+" (at 203.835 85.09 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15c89a2f-e778-4184-a0b0-6e6771570b18)
   )
@@ -2226,61 +2226,61 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 48920ac2-8017-4f3f-b0ba-cb19130cc62b)
   )
-  (label "OFILTER" (at 175.895 104.14 0) (fields_autoplaced)
+  (label "BSNR" (at 175.895 104.14 0) (fields_autoplaced)
     (effects (font (size 0.6 0.6)) (justify left bottom))
     (uuid 48b5a143-0f85-4c75-8b0f-de576a9142d4)
   )
-  (label "PWR" (at 132.715 88.9 0) (fields_autoplaced)
+  (label "PVCCL" (at 127.635 88.9 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 4e3ab9f1-ca7e-4880-ab52-e628ac958bfd)
   )
-  (label "OFILTER" (at 175.895 97.79 0) (fields_autoplaced)
+  (label "BSPL" (at 175.895 97.79 0) (fields_autoplaced)
     (effects (font (size 0.6 0.6)) (justify left bottom))
     (uuid 50d88c1e-16a6-42f2-a44b-a0460ab1188e)
-  )
-  (label "SIG" (at 136.525 138.43 0) (fields_autoplaced)
-    (effects (font (size 0.8 0.8)) (justify left bottom))
-    (uuid 53d5a7ce-e7df-4730-83b1-76116ec3d85f)
   )
   (label "GND" (at 136.525 147.32 0) (fields_autoplaced)
     (effects (font (size 0.8 0.8)) (justify left bottom))
     (uuid 646123fa-baf3-45bf-bef5-5b76178efa5b)
   )
-  (label "PWR" (at 134.62 69.85 0) (fields_autoplaced)
+  (label "AVCC" (at 134.62 69.85 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 722f2098-d719-48a9-a306-6edf864b4d2f)
   )
-  (label "SPKR" (at 203.835 104.14 0) (fields_autoplaced)
+  (label "SPK-" (at 203.835 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8d4a9b9f-6bd9-44d1-bb24-f1f67bab9663)
   )
-  (label "PWR" (at 71.12 81.28 0) (fields_autoplaced)
+  (label "GND" (at 71.12 81.28 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 9d50c00d-c409-4e32-8984-f212e0387dbe)
   )
-  (label "PWR" (at 132.715 81.28 0) (fields_autoplaced)
+  (label "PVCCR" (at 127.635 86.995 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid a06633f9-6d58-4b5e-8648-3149e6322597)
   )
-  (label "SIG" (at 136.525 142.24 0) (fields_autoplaced)
-    (effects (font (size 0.8 0.8)) (justify left bottom))
-    (uuid b9b46fde-834d-4ef9-b99d-7e8d6f7f2c3c)
+  (label "GND" (at 133.985 37.465 0) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify left bottom))
+    (uuid b049fa63-77b6-4bfa-836a-61794441282f)
   )
   (label "RINN" (at 134.62 107.95 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid bafc359f-e578-49f7-8648-8380960352cb)
   )
-  (label "PWR" (at 134.62 73.66 0) (fields_autoplaced)
+  (label "GVDD" (at 134.62 73.66 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid bb44cabf-e5fb-4b4f-a01c-3f7d0021d7b8)
   )
-  (label "OFILTER" (at 180.975 85.09 0) (fields_autoplaced)
+  (label "OUTPL" (at 180.975 85.09 0) (fields_autoplaced)
     (effects (font (size 0.6 0.6)) (justify left bottom))
     (uuid c8df7391-3a1d-4f27-96fb-5c6d7a4842ce)
   )
-  (label "OFILTER" (at 180.975 92.71 0) (fields_autoplaced)
+  (label "OUTPR" (at 180.975 92.71 0) (fields_autoplaced)
     (effects (font (size 0.6 0.6)) (justify left bottom))
     (uuid e9a0a0ef-dc0e-40ff-a50e-0d046e1a44bf)
+  )
+  (label "PWR" (at 133.985 32.385 0) (fields_autoplaced)
+    (effects (font (size 1 1)) (justify left bottom))
+    (uuid ffe5df16-b361-4514-9496-00d5f042f326)
   )
 
   (global_label "AMPIN" (shape input) (at 69.215 105.41 180) (fields_autoplaced)
@@ -2322,7 +2322,7 @@
     )
     (pin "1" (uuid 17f4f0f8-7f7b-4f2d-9e1c-e75029199dad))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR06") (unit 1)
         )
@@ -2348,7 +2348,7 @@
     (pin "1" (uuid 5706595f-7b12-46ab-8fae-60986355692f))
     (pin "2" (uuid 2c2d3d68-b4ec-4541-9d3e-14b4cb2dcec2))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R1") (unit 1)
         )
@@ -2374,7 +2374,7 @@
     (pin "1" (uuid 110a1036-d3a2-40b3-a711-0eb04615cc75))
     (pin "2" (uuid ceb426fa-056b-4036-b9c8-ee49065a2cc3))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R2") (unit 1)
         )
@@ -2399,7 +2399,7 @@
     )
     (pin "1" (uuid 8e3c52df-f88e-4f91-a2a2-a0d358d7d90b))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR012") (unit 1)
         )
@@ -2424,7 +2424,7 @@
     )
     (pin "1" (uuid 732ed0a2-58f3-4d63-90cc-4ba1d5c736df))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR016") (unit 1)
         )
@@ -2449,7 +2449,7 @@
     )
     (pin "1" (uuid ec84348d-8850-4565-86ec-948823ee68b1))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR010") (unit 1)
         )
@@ -2474,7 +2474,7 @@
     )
     (pin "1" (uuid e3e87c0e-775a-4338-ba31-f0490256c743))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR01") (unit 1)
         )
@@ -2499,7 +2499,7 @@
     )
     (pin "1" (uuid 4425ec5d-6fd1-439f-b311-808bfeb1c2be))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#FLG01") (unit 1)
         )
@@ -2576,7 +2576,7 @@
     (pin "5" (uuid cf392dd0-a636-4523-8e25-13eeecd3815c))
     (pin "6" (uuid 21efa61b-fa95-4e84-b8ee-d9a493c2711e))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "U1") (unit 1)
         )
@@ -2601,7 +2601,7 @@
     )
     (pin "1" (uuid e3dc9836-d1a7-44b4-9c04-d7e93fc22fed))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR015") (unit 1)
         )
@@ -2626,7 +2626,7 @@
     )
     (pin "1" (uuid 500e81f6-d8e1-4c42-9a2f-f139695c2cd4))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR013") (unit 1)
         )
@@ -2651,7 +2651,7 @@
     )
     (pin "1" (uuid f7245e9f-f45b-48a0-8c33-0974b75bf266))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#FLG03") (unit 1)
         )
@@ -2676,7 +2676,7 @@
     )
     (pin "1" (uuid f355e31e-0fc3-42e7-9a3a-f732f88598f8))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR018") (unit 1)
         )
@@ -2701,7 +2701,7 @@
     )
     (pin "1" (uuid 7dafde0f-2bbb-431b-9087-ec31240634d2))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR03") (unit 1)
         )
@@ -2726,7 +2726,7 @@
     )
     (pin "1" (uuid fe24d464-2cf5-4496-a4d1-ad0dad75c9ca))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR05") (unit 1)
         )
@@ -2752,7 +2752,7 @@
     (pin "1" (uuid 1d5d3268-1f8e-4f6a-8b61-c4bdc14d96c3))
     (pin "2" (uuid ac0e11e5-857c-4a65-b02f-364777f9cfb2))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "J3") (unit 1)
         )
@@ -2778,7 +2778,7 @@
     (pin "1" (uuid c10cd9c6-175c-4049-b9bb-4103c0218127))
     (pin "2" (uuid 2c9b0290-809b-4ad1-9efb-948f2f696e39))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C7") (unit 1)
         )
@@ -2804,7 +2804,7 @@
     (pin "1" (uuid 89f081f7-4dd6-4bcc-b90d-05a2c0567c74))
     (pin "2" (uuid 1efe57d0-66b3-43a3-a877-b863d79f5906))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R3") (unit 1)
         )
@@ -2830,7 +2830,7 @@
     (pin "1" (uuid 25ebdf70-dbb0-4eca-b0d5-19d1b0dfe910))
     (pin "2" (uuid 20e1654e-0d82-4845-9adb-b14ac0846d2c))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C11") (unit 1)
         )
@@ -2856,7 +2856,7 @@
     (pin "1" (uuid 5e9915ed-394b-4794-a852-0c518559fe29))
     (pin "2" (uuid 6bc4f10a-58aa-49d2-a559-722924bf01cb))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "L2") (unit 1)
         )
@@ -2882,7 +2882,7 @@
     (pin "1" (uuid f4df7ab4-6816-45bd-bba8-9a217f475879))
     (pin "2" (uuid 161bc4a5-7a98-470d-b9ad-0b1dcefc28f6))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C4") (unit 1)
         )
@@ -2908,7 +2908,7 @@
     (pin "1" (uuid 7befe9c0-01ce-4f70-a6c8-0a415f1a151d))
     (pin "2" (uuid 910fbd07-d1ae-4b09-8e0c-03279c5f8cd9))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C5") (unit 1)
         )
@@ -2917,12 +2917,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 106.68 75.565 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bc2ccbe-17fa-4fae-a019-6c562873911e)
     (property "Reference" "#PWR07" (at 106.68 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 106.68 80.645 0)
+    (property "Value" "GND" (at 109.855 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 106.68 75.565 0)
@@ -2933,7 +2933,7 @@
     )
     (pin "1" (uuid 83b0efcc-6c01-47e8-a80e-d2e7e1ba29b2))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR07") (unit 1)
         )
@@ -2958,7 +2958,7 @@
     )
     (pin "1" (uuid 429ac3ea-093b-41c6-857a-c0cb92e9df58))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR02") (unit 1)
         )
@@ -2984,7 +2984,7 @@
     (pin "1" (uuid 838c640f-b338-4794-abaa-4d634528fc36))
     (pin "2" (uuid a51c8bb5-183f-4b8e-abb0-3bca6a909684))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R6") (unit 1)
         )
@@ -3010,7 +3010,7 @@
     (pin "1" (uuid 4e6cf1fd-5f01-47a9-a696-25aa621d8bf1))
     (pin "2" (uuid a417e429-95d5-4b8d-9896-b41d0290babe))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R5") (unit 1)
         )
@@ -3036,7 +3036,7 @@
     (pin "1" (uuid 1463b78a-9e45-4129-ad01-b750b4385edb))
     (pin "2" (uuid 8cf272c5-5e23-4ffd-94e0-84b4d5d67670))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C13") (unit 1)
         )
@@ -3062,7 +3062,7 @@
     (pin "1" (uuid 04ba007a-45b2-492b-94f2-d95f98eabbf9))
     (pin "2" (uuid 62d306ea-a6b5-4131-9f6c-1db0d6cf2b7c))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C3") (unit 1)
         )
@@ -3088,7 +3088,7 @@
     (pin "1" (uuid 8e36694e-7daa-424f-a8cc-10eea3806a69))
     (pin "2" (uuid e7689b02-2686-4313-ae3b-1a68f356ddbd))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C10") (unit 1)
         )
@@ -3113,7 +3113,7 @@
     )
     (pin "1" (uuid 8e58d137-811f-44b8-a422-39ee2fe69810))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR04") (unit 1)
         )
@@ -3130,16 +3130,16 @@
     (property "Value" "100u" (at 85.725 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 88.5952 96.52 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" (at 88.5952 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74f747f2-2537-4100-9ec3-d122c8bb43e7))
-    (pin "2" (uuid 496bea70-ad5c-4f3a-9ed9-ed063805ff5c))
+    (pin "1" (uuid 4fe4fdb7-9eb0-45bd-866c-fbf48bedf434))
+    (pin "2" (uuid 591997c1-0888-452f-8c24-2676d92ee33d))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C2") (unit 1)
         )
@@ -3164,7 +3164,7 @@
     )
     (pin "1" (uuid 131cefeb-7d14-4dad-b144-b9ccfb3868dd))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#FLG02") (unit 1)
         )
@@ -3191,7 +3191,7 @@
     (pin "S" (uuid 22e04d65-dc41-4c0d-93d7-853d96111aec))
     (pin "T" (uuid 286c5ac8-1127-4a54-9994-68c05da27396))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "J1") (unit 1)
         )
@@ -3216,7 +3216,7 @@
     )
     (pin "1" (uuid 80ce2894-9d0c-4ea9-a6e6-247269d10e86))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR017") (unit 1)
         )
@@ -3242,7 +3242,7 @@
     (pin "1" (uuid c3da7ab8-6848-4dd6-9924-b87113fff152))
     (pin "2" (uuid ceee2bd5-ec68-4480-84e6-8c87c923c3d5))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C8") (unit 1)
         )
@@ -3268,7 +3268,7 @@
     (pin "1" (uuid dea42c13-5d0c-42f7-aeab-801049b5aa4a))
     (pin "2" (uuid 4ed545f1-8907-4568-a663-ff036c09ef7c))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "R4") (unit 1)
         )
@@ -3293,7 +3293,7 @@
     )
     (pin "1" (uuid 48f99378-951d-4909-894e-bd6ffadb5596))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR08") (unit 1)
         )
@@ -3319,7 +3319,7 @@
     (pin "1" (uuid 742ab8c6-5dde-43ab-bf87-3f353615e785))
     (pin "2" (uuid 3dfa50c4-48d1-4588-ac12-fb34d58ad6d2))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "L1") (unit 1)
         )
@@ -3345,7 +3345,7 @@
     (pin "1" (uuid 9f2b64bc-bb7d-49cf-a12e-d28418237112))
     (pin "2" (uuid 7bb988f0-afa3-46da-9fad-19ee04790ee1))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C6") (unit 1)
         )
@@ -3354,12 +3354,12 @@
   )
 
   (symbol (lib_id "power:GND") (at 129.54 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ea50d5b1-ea43-4b48-af42-52b071b1341c)
     (property "Reference" "#PWR09" (at 129.54 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 129.54 85.725 0)
+    (property "Value" "GND" (at 127 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 129.54 81.28 0)
@@ -3370,7 +3370,7 @@
     )
     (pin "1" (uuid bd60930a-0eeb-4979-80fc-cd2941165717))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR09") (unit 1)
         )
@@ -3396,7 +3396,7 @@
     (pin "1-" (uuid 67429b1a-5ab2-404e-a29e-9f4043f17b6c))
     (pin "1+" (uuid 0556da4f-0d6f-405e-ab7e-5f10f9286b23))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "J2") (unit 1)
         )
@@ -3422,7 +3422,7 @@
     (pin "1" (uuid 2efdb08e-076b-48b3-a360-436d6d43cd32))
     (pin "2" (uuid bd684204-2377-4713-948f-a09d27d6bad3))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C9") (unit 1)
         )
@@ -3448,7 +3448,7 @@
     (pin "1" (uuid 33d6871c-a21e-4d2f-a8b7-40255196c3a8))
     (pin "2" (uuid 54a8b8f3-c86f-455c-9f4e-aa32fe8657ab))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C12") (unit 1)
         )
@@ -3473,7 +3473,7 @@
     )
     (pin "1" (uuid 9596abb0-40d7-4bcc-ae11-c3f6fa907339))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR014") (unit 1)
         )
@@ -3498,7 +3498,7 @@
     )
     (pin "1" (uuid d165390b-a592-49d4-85f6-78e21c50efc0))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "#PWR011") (unit 1)
         )
@@ -3524,7 +3524,7 @@
     (pin "1" (uuid 2cd45b43-1029-41f8-97ad-9524c0555fcb))
     (pin "2" (uuid 7f607e17-14b4-415e-99f8-6997c419ad90))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C14") (unit 1)
         )
@@ -3532,25 +3532,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 87.63 83.185 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 87.63 83.185 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe05810e-c10a-4ea7-b3a1-e7cfca3da149)
-    (property "Reference" "C1" (at 85.725 76.2 0)
+    (property "Reference" "C1" (at 89.535 75.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100u" (at 85.725 78.105 0)
+    (property "Value" "100u" (at 89.535 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 88.5952 86.995 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" (at 86.6648 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 88e3019f-719a-4b87-a042-28a2c494f353))
-    (pin "2" (uuid 93ad7e69-0a48-4b13-a09c-44e4a4301136))
+    (pin "1" (uuid f6a194d9-7ddb-4531-a4b3-95fa489f1b57))
+    (pin "2" (uuid 2bef150e-8864-4fc4-a46c-d704bbb7a855))
     (instances
-      (project "Class D Amplifier"
+      (project "PedalSynth"
         (path "/1443bf07-7fdd-4210-bff3-4ada97044cac"
           (reference "C1") (unit 1)
         )
