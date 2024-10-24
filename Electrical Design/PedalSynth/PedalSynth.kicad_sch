@@ -6547,7 +6547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HC9-330-R:IND_COILECTRONICS_HC9_B-M"
+		(property "Footprint" "VLS6045AF_330M:IND_VLS6045AF-330M"
 			(at 198.755 104.14 0)
 			(effects
 				(font
@@ -7902,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HC9-330-R:IND_COILECTRONICS_HC9_B-M"
+		(property "Footprint" "VLS6045AF_330M:IND_VLS6045AF-330M"
 			(at 198.755 85.09 0)
 			(effects
 				(font
