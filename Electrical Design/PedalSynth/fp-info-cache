@@ -1,4 +1,4 @@
-24201645927058213
+24203375765344786
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57959,6 +57959,13 @@ heatsink
 0
 0
 0
+Inductor-VLS6045AF_330M
+IND_VLS6045AF-330M
+
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -85497,6 +85504,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Pheonix-2P-Level1190297
+PHOENIX_1190297
+
+
+0
+4
+4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -97194,13 +97208,6 @@ igbt diode module
 0
 25
 25
-VLS6045AF_330M
-IND_VLS6045AF-330M
-
-
-0
-2
-2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
