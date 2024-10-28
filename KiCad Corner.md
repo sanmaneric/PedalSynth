@@ -42,11 +42,12 @@
 |U  |Select entire track|
 |B  |Fill all copper zones|
 |D  |(D)rag a trace or part|
+|H  |Hide or darked the inavtice layer|
 
 # General PCB Tips:
 ## Standard SMD Sizes (Hand Solder Doable)
- - 0402
- - 0602
+ - 0402 (smallest)
+ - 0602 (medium)
 
 ## Larger SMD Sizes (Use for larger values C/L, ferrite beads, etc.)
  - 0805
