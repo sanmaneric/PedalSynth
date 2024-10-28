@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "7bd9e0ba-5c6e-4bd8-8949-75c00f4cf477")
+	(uuid "949b142c-58f0-46cc-af04-d79e832006a6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Audio:MN3207"
@@ -3259,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a82a53c-62e5-44dd-a598-5e3834d209b4")
-		(property "Reference" "U9"
+		(property "Reference" "V3207D"
 			(at 156.21 141.0014 0)
 			(effects
 				(font
@@ -3357,7 +3357,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
-					(reference "U9")
+					(reference "V3207D")
 					(unit 1)
 				)
 			)
@@ -4700,10 +4700,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85073a01-5bfb-4872-8507-f4ca82a3a35d")
-		(property "Reference" "U8"
-			(at 113.03 39.4014 0)
+		(property "Reference" "V3207D"
+			(at 110.236 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4799,7 @@
 		(instances
 			(project ""
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
-					(reference "U8")
+					(reference "V3207D")
 					(unit 1)
 				)
 			)
