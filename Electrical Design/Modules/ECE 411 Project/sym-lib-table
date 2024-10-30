@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Project Specific Library")(type "KiCad")(uri "${KIPRJMOD}/Custom Symbols/0.96 Inch OLED.kicad_sym")(options "")(descr ""))
+)

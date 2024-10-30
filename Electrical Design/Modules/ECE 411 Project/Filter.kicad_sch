@@ -415,6 +415,28 @@
 		)
 		(uuid "fa76e7f9-4ff1-4712-80c8-a0705fc97dc4")
 	)
+	(global_label "Input"
+		(shape input)
+		(at 82.55 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1679d9a6-c0b8-4b66-a899-7d667f636664")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.7873 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Output"
 		(shape output)
 		(at 138.43 76.2 0)
@@ -436,18 +458,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "Input"
-		(shape input)
-		(at 82.55 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b352ce24-4ac8-4ee6-8557-4914149b3b82")
 	)
 	(symbol
 		(lib_id "power:GND")
