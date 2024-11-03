@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "c40de718-9e4f-4ad9-9c27-8cf26e7236d7")
 	(paper "A4")
+	(title_block
+		(title "Tremolo Effect")
+		(date "2024-10-31")
+		(rev "1.1")
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -1562,7 +1570,7 @@
 		)
 		(uuid "fe9d42b4-f83a-471e-972d-23e1af9019d6")
 	)
-	(hierarchical_label "In"
+	(hierarchical_label "TREMIN"
 		(shape input)
 		(at 99.06 80.01 90)
 		(fields_autoplaced yes)
@@ -1574,7 +1582,7 @@
 		)
 		(uuid "72a84fcb-e7a8-4aa3-8f03-a62d2433cd28")
 	)
-	(hierarchical_label "Out"
+	(hierarchical_label "TREMOUT"
 		(shape output)
 		(at 143.51 80.01 0)
 		(fields_autoplaced yes)

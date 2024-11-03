@@ -388,16 +388,12 @@
       "Root"
     ],
     [
-      "383d4280-e3a7-431a-9f64-a1a5af776ef4",
-      "Noise Filter"
-    ],
-    [
       "29e94901-2eb6-4d5f-9450-5a88f29fead6",
-      "Tremolo Schematic"
+      "Tremolo Effect"
     ],
     [
       "9b94327a-6b02-4c1c-b4e8-ca4e897770fe",
-      "Chorus Schematic"
+      "Chorus Effect"
     ],
     [
       "8f86630c-b082-49b2-ac75-812b54604c49",
@@ -405,7 +401,7 @@
     ],
     [
       "fc48e9dd-306b-4a9b-831b-312573108cdc",
-      "Class D Amp Schematic"
+      "Class-D Amplification"
     ],
     [
       "3d12698d-f95b-4276-b064-730c4280216d",

@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "949b142c-58f0-46cc-af04-d79e832006a6")
 	(paper "A4")
+	(title_block
+		(title "Chorus Effect")
+		(date "2024-10-31")
+		(rev "1.1")
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
+	)
 	(lib_symbols
 		(symbol "Audio:MN3207"
 			(exclude_from_sim no)
@@ -2207,28 +2215,6 @@
 			)
 		)
 	)
-	(global_label "+V"
-		(shape input)
-		(at 50.8 19.05 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35e03d41-1b91-487b-a84f-f905f12cdc8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 13.4038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Clock{slash}lfo from .uC"
 		(shape input)
 		(at 233.68 43.18 90)
@@ -2426,6 +2412,18 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "9V"
+		(shape input)
+		(at 50.8 19.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b557a27-e549-460c-a576-6688e4e2d6bc")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3259,7 +3257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a82a53c-62e5-44dd-a598-5e3834d209b4")
-		(property "Reference" "V3207D"
+		(property "Reference" "V3207D2"
 			(at 156.21 141.0014 0)
 			(effects
 				(font
@@ -3357,7 +3355,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
-					(reference "V3207D")
+					(reference "V3207D2")
 					(unit 1)
 				)
 			)
@@ -3988,6 +3986,72 @@
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65142931-9486-40ce-826d-d42c1b266327")
+		(property "Reference" "#PWR044"
+			(at 133.35 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dffd09f-6b02-4c2a-81cf-76a39b7fe9ba")
+		)
+		(instances
+			(project ""
+				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85073a01-5bfb-4872-8507-f4ca82a3a35d")
-		(property "Reference" "V3207D"
+		(property "Reference" "V3207D1"
 			(at 110.236 39.37 0)
 			(effects
 				(font
@@ -4799,7 +4863,7 @@
 		(instances
 			(project ""
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
-					(reference "V3207D")
+					(reference "V3207D1")
 					(unit 1)
 				)
 			)

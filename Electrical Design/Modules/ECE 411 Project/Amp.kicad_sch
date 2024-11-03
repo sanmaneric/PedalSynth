@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "011a2fd2-2fa7-4147-b593-dc6e1b884dd2")
 	(paper "A4")
+	(title_block
+		(title "20W Mono Class-D Audio Amplifier")
+		(rev "2.3")
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
@@ -2353,279 +2360,6 @@
 				)
 			)
 		)
-		(symbol "Pheonix-1190297:1190297"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "1190297"
-				(at -2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "1190297:PHOENIX_1190297"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "03.11.2020"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "23.58mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Phoenix Contact"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "1190297_0_0"
-				(rectangle
-					(start -3.81 -5.08)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 -1.27)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 3.81)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 5.08)
-					(name "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TPA3136D2PWPR:TPA3136D2PWPR"
 			(pin_names
 				(offset 1.016)
@@ -4290,12 +4024,6 @@
 		(uuid "74f373a3-0e65-499d-8d27-fc110e28e7ba")
 	)
 	(junction
-		(at 220.345 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b14ec76-ad07-4922-8a71-9859d3d89867")
-	)
-	(junction
 		(at 123.825 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4378,12 +4106,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c84ac657-4e11-4256-8935-3c3ff28acf0b")
-	)
-	(junction
-		(at 220.345 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1e586df-d48a-4fea-b331-a81dc76346a1")
 	)
 	(junction
 		(at 125.095 130.81)
@@ -4550,16 +4272,6 @@
 			(type default)
 		)
 		(uuid "163ebfa8-d14b-4473-8065-a2d98b1b272a")
-	)
-	(wire
-		(pts
-			(xy 220.345 91.44) (xy 220.345 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a77eac-09c1-45bc-894b-94790c83a46e")
 	)
 	(wire
 		(pts
@@ -4903,6 +4615,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.345 93.98) (xy 222.885 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b919ad-5d60-4257-a6c3-771907a37b8e")
+	)
+	(wire
+		(pts
 			(xy 197.485 86.36) (xy 206.375 86.36)
 		)
 		(stroke
@@ -4923,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 96.52) (xy 220.345 99.06)
+			(xy 220.345 96.52) (xy 220.345 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5223,16 +4945,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 99.06) (xy 220.345 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f50735-ae02-41d7-8056-94b76a9b7c8d")
-	)
-	(wire
-		(pts
 			(xy 179.07 99.06) (xy 180.975 99.06)
 		)
 		(stroke
@@ -5503,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 86.36) (xy 220.345 91.44)
+			(xy 220.345 86.36) (xy 220.345 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5570,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "de936eee-5289-4941-9626-3d9283d6c938")
+	)
+	(wire
+		(pts
+			(xy 220.345 96.52) (xy 222.885 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11ba5b4-7c7c-427b-abb8-48e8df4c1368")
 	)
 	(wire
 		(pts
@@ -5794,6 +5516,19 @@
 			(type none)
 		)
 		(uuid d5ccc9fe-68c1-4083-a1eb-7d5db11d2dfe)
+	)
+	(rectangle
+		(start 223.52 153.035)
+		(end 282.575 163.195)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eafae87f-fca4-48c0-8a73-2f04d53c0bc3)
 	)
 	(image
 		(at 271.78 174.625)
@@ -6631,7 +6366,7 @@
 		)
 		(uuid "0861f339-300f-4a12-b53d-9cc88417dcbd")
 	)
-	(text "Mono Summing Input"
+	(text "Mono Summing Input (JACK FOR TESTING ONLY)"
 		(exclude_from_sim no)
 		(at 62.23 21.59 0)
 		(effects
@@ -6659,7 +6394,35 @@
 		)
 		(uuid "275e28ef-bdcc-4daa-a085-723c44890d44")
 	)
-	(text "Power Input"
+	(text "PRELIMINARY"
+		(exclude_from_sim no)
+		(at 252.73 160.655 0)
+		(effects
+			(font
+				(face "Arial Black")
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "2ff7023c-b315-4817-86de-94d247c491c3")
+	)
+	(text "NOTE: \nTHIS SHEET IS COPIED FROM DEV BOARD DESIGN.\nIT WILL BE UPDATED LATER ONCE THE DESIGN IS CONFIRMED\nTO BE FUNCTIONAL."
+		(exclude_from_sim no)
+		(at 20.32 182.245 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "4de31b6e-692c-422e-9d60-6a947959c140")
+	)
+	(text "Power Input (JACK FOR TESTING ONLY)"
 		(exclude_from_sim no)
 		(at 111.125 21.59 0)
 		(effects
@@ -6694,17 +6457,6 @@
 			(justify left bottom)
 		)
 		(uuid "93428b00-2240-40c0-acf6-8837fdd440a6")
-	)
-	(text "Output to 8ohm speaker"
-		(exclude_from_sim no)
-		(at 234.569 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9787477a-22e1-4664-8d2f-dc34a078ab87")
 	)
 	(text "4.5-14 V DC"
 		(exclude_from_sim no)
@@ -7016,6 +6768,30 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SPK-"
+		(shape output)
+		(at 222.885 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60557fa7-6021-4571-a230-dd6c0d486d00")
+	)
+	(hierarchical_label "SPK+"
+		(shape output)
+		(at 222.885 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc2f566b-7ec6-41b8-b1ee-150381cb7ded")
 	)
 	(symbol
 		(lib_name "GND_2")
@@ -10349,123 +10125,6 @@
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
 					(reference "TPSP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pheonix-1190297:1190297")
-		(at 227.965 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e58f8f4e-81dd-4df8-9976-b7cc825d706d")
-		(property "Reference" "J5"
-			(at 234.315 96.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Pheonix Latching Connector (1190297)"
-			(at 234.315 93.98 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pheonix-2P-Level1190297:PHOENIX_1190297"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.neutrik.com/en/speakon/"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "03.11.2020"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "23.58mm"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 227.965 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_2"
-			(uuid "055a7458-ab92-42c5-82b7-4d1e84f9b41a")
-		)
-		(pin "1_2"
-			(uuid "cd828e6b-cb32-4ad3-a071-b07ff7a2a58e")
-		)
-		(pin "1_1"
-			(uuid "33696163-3051-468b-9086-7b373ee7ca60")
-		)
-		(pin "2_1"
-			(uuid "475b357d-4e90-463f-8946-e15f37f90fbc")
-		)
-		(instances
-			(project "ECE 411 Project"
-				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
-					(reference "J5")
 					(unit 1)
 				)
 			)
