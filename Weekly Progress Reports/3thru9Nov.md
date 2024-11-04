@@ -14,6 +14,8 @@ Eric got one of the amp boards assembled and it worked on the first try! The bas
 For the amplifiers, Eric changed the value of the aux input capacitor to a lower value, which extended the bass range as per the datasheet. More formal testing of the amplifier on a scope to come later this week.
 >>>>>>> 680d2f22141ed485db2023b873c574d381026ef4
 
+As a team, we worked on preparing the Gantt chart and all of its dependencies.
+
 ## Tuesday
 
 

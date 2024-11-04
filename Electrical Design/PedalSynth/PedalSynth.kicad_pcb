@@ -12357,7 +12357,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "4.5-14.4\nVDC"
+	(gr_text "8-14.4\nVDC"
 		(at 124.85 76.8 0)
 		(layer "F.SilkS" knockout)
 		(uuid "d19daecd-1fcf-48c5-9744-705f31d2c339")
