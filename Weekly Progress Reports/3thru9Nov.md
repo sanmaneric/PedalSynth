@@ -2,9 +2,10 @@
 
 ## Sunday
 Nothing to report, it's the weekend. :sleeping:
+Finalizing BOM - Sierra 
 
 ## Monday
-
+Group meeting, discussing how to share tremolo and chorus rate and clock. Adding depth bybass to work as both on/off and depth potentiometer to chorus effect. -Sierra 
 
 ## Tuesday
 
