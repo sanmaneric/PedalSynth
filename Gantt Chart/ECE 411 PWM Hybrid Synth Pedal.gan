@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Synthesizer Project" company="Personal Project" webLink="" view-date="2024-10-03" view-index="0" gantt-divider-location="756" resource-divider-location="300" version="3.3.3312" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="0"/>
+        <field id="tpd3" name="Name" width="222" order="0"/>
+        <field id="tpd14" name="Task color" width="20" order="1"/>
+        <field id="tpd4" name="Begin date" width="80" order="1"/>
+        <field id="tpd5" name="End date" width="117" order="2"/>
+        <field id="tpd7" name="Completion" width="92" order="3"/>
+        <field id="tpd6" name="Duration" width="84" order="4"/>
+        <field id="tpd9" name="Predecessors" width="82" order="5"/>
+        <field id="tpd1" name="Priority" width="64" order="6"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[1,52]]></timeline>
+        <option id="color.recent"><![CDATA[#ff9900 #ff6600 #f4f4f4 #ff00ff #33ff33 #33ccff #ff0000 #6666ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="45" uid="f0cb72eeb19a4573b7210c03e3a00a4c" name="Member Assignments" meeting="false" start="2024-10-03" duration="1" complete="0" thirdDate="2024-09-30" thirdDate-constraint="1" expand="false">
+            <task id="46" uid="868c920a3b794f5a90c6ef83e04dcd03" name="Eric Sanman" color="#6666ff" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="50" uid="bd14eeeff26e4f738425bb0b8096224d" name="task_50" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="47" uid="9dbf97af69b84ea898e3c6433e6206e4" name="Chuong Vo" color="#ff0000" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="48" uid="85bdd75939a142d4a6553294ae8c998f" name="Chris Crider" color="#33ccff" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="49" uid="82aff71ecd424db5bee2e589568bcbf8" name="Sierra Buckley" color="#33ff33" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+            <task id="51" uid="b1f34ba82adf42cda6712b7cda0b5dc5" name="Group/Everyone" color="#ff9900" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="52" uid="b03f7f89ceee4ac893c4030c8f8fa388" name="Pre-Project" meeting="false" start="2024-10-03" duration="7" complete="0" expand="true">
+            <task id="53" uid="353f4d6dd3a54876ba6d74b0338ef286" name="Group Formation" color="#ff9900" meeting="false" start="2024-10-03" duration="7" complete="0" expand="true"/>
+            <task id="54" uid="6b6099af8d254530968e9d682cf08432" name="Collaboration Site Set-up" color="#ff9900" meeting="false" start="2024-10-03" duration="7" complete="0" expand="true"/>
+            <task id="55" uid="f530316028b84197840ad651d8681f38" name="Begin Brainstorming Projects" color="#ff9900" meeting="false" start="2024-10-03" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="1" uid="e682e4c1d79348088db405dac1966bd1" name="Project Concept Generation" meeting="false" start="2024-10-10" duration="9" complete="0" expand="true">
+            <task id="56" uid="eac0ac73f17e41e4925946ea6598eab7" name="Generate 3 Project Ideas" color="#ff9900" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" uid="f58419a2934d4786b507dd2153657662" name="Pick a Project" color="#ff9900" meeting="false" start="2024-10-11" duration="1" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="5fc7fae2d95b43a5ab17a0e68b983156" name="Define Synthesizer Features" color="#ff9900" meeting="false" start="2024-10-12" duration="7" complete="0" expand="true"/>
+            <task id="3" uid="1573284e673f4e84ad31406ae4a5bc68" name="Research Components and Features" color="#ff9900" meeting="false" start="2024-10-12" duration="7" complete="0" expand="true"/>
+            <task id="4" uid="c5c68897877a41c99af6cb61e31b878d" name="Establish Project Must, Shoulds and Mays" color="#ff9900" meeting="false" start="2024-10-12" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="5" uid="efe4bc425bec4bfdadf9d746f83f0267" name="Initial Design and Planning" meeting="false" start="2024-10-19" duration="14" complete="0" expand="true">
+            <task id="6" uid="c44012b613694a1ca0dc5bc0297cb4a9" name="Design Block Diagrams and Determine Input/Outputs" color="#ff9900" meeting="false" start="2024-10-19" duration="3" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="2ac1cc3a7b224d988328c45196814962" name="Identify Necessary Components" color="#ff9900" meeting="false" start="2024-10-19" duration="7" complete="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="be011b7667654b7199c5d3128de1c5cf" name="Being Planning out a Prototype" color="#ff9900" meeting="false" start="2024-10-19" duration="14" complete="0" expand="true"/>
+            <task id="58" uid="2b9d2d367ca844408d17f288531d42ac" name="Begin designing project Schematic" color="#ff9900" meeting="false" start="2024-10-19" duration="12" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" uid="f1d19b4be6c64d67992d84d494ff3c79" name="Create and Finalize a Product Design Specification" color="#ff9900" meeting="false" start="2024-10-26" duration="7" complete="0" expand="true"/>
+        </task>
+        <task id="9" uid="c21912afe7b24168a844c91e12d28046" name="Hardware Prototyping" meeting="false" start="2024-10-12" duration="23" complete="0" expand="true">
+            <task id="60" uid="1d5ea7272bd54ee39d726d2eed354169" name="Create Schematic for Class D Amplifier" meeting="false" start="2024-10-17" duration="6" complete="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" uid="4120581a95794618b7fa679b80a4b5b0" name="Create Layout for Class D Amplifier" meeting="false" start="2024-10-23" duration="9" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" uid="b880b30dcf0842e58f8d1e01da0bf3f1" name="Order Class D Amp PCB" meeting="false" start="2024-11-01" duration="3" complete="0" expand="true"/>
+            <task id="10" uid="7143fa12970a4b019b7a5958bc5fee61" name="Begin ESP32 PWM and Library Derisking" meeting="false" start="2024-11-01" duration="3" complete="0" expand="true"/>
+            <task id="11" uid="a5701966c9864ef19028f437ad4ef5eb" name="Begin Component Derisking" meeting="false" start="2024-10-12" duration="7" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="09617ec40a544254bed4e0b76173c9bd" name="Finalize Component Combinations and Values" meeting="false" start="2024-10-19" duration="3" complete="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="74" uid="1b6c578970dc4ebebdd593ebe82fc203" name="Order Components" meeting="false" start="2024-10-22" duration="7" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+                <depend id="67" type="2" difference="0" hardness="Strong"/>
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="14" uid="ef740ad74a5148f2a33ecd8e989407fd" name="Firmware Development for Core Synth Functions" meeting="false" start="2024-10-24" duration="12" complete="0" expand="true">
+            <task id="15" uid="798064e8ac304019a678bea2df520617" name="Begin to develop code for PWM generation" meeting="false" start="2024-10-24" duration="4" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="c1ec561f2dba4c328a22d32d08b78e24" name="Begin to develop code for OLED display" meeting="false" start="2024-10-24" duration="4" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="3bb1b72f731a451d8e01d5f7e27996db" name="Combine Codes" meeting="false" start="2024-10-28" duration="4" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="31027313f84a4d2b99541e9df57c2c31" name="Finalize Code and implement on Chip" meeting="false" start="2024-11-01" duration="4" complete="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="19" uid="a926a84a544143b3bfd72acb479b0ef2" name="Analog Circuit Design and Refinement" meeting="false" start="2024-10-29" duration="8" complete="0" expand="true">
+            <task id="63" uid="e9e8a200ac324f989a0dc882e99725ed" name="Create Tremolo Circuit" meeting="false" start="2024-10-29" duration="1" complete="0" expand="true">
+                <depend id="64" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="64" uid="7f23f0642f3748eaa5c40244029f5093" name="Test Tremolo Circuit" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="65" uid="2afbad4505cd4a9bb49792972a47ac5b" name="Create Fuzz/Distortion Circuit" color="#8cb6ce" meeting="false" start="2024-10-29" duration="1" complete="0" expand="true">
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" uid="a6b062ca28ae432290b1bb7dc79976a2" name="Test Fuzz/Distortion Circuit" color="#8cb6ce" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="67" uid="9caacb96286041ad8f1721751da62bb1" name="Create Chorus Circuit" color="#8cb6ce" meeting="false" start="2024-10-29" duration="1" complete="0" expand="true">
+                <depend id="68" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="68" uid="a1255039dc6d472d9264469e500e1f97" name="Test Chorus Circuit" color="#8cb6ce" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="69" uid="e4d66d93333141708494ad953fbccd5f" name="Create Signal Filter Circuit" color="#8cb6ce" meeting="false" start="2024-10-29" duration="1" complete="0" expand="true">
+                <depend id="70" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="70" uid="673376e01aec4ebab0680e37fe355913" name="Test Signal Filter Circuit" color="#8cb6ce" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true">
+                <depend id="71" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="71" uid="c8e2384f93c84b959405768980b0af52" name="Combine Circuits and Test" meeting="false" start="2024-10-31" duration="5" complete="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" uid="680799af266d4e4c86578321215199a3" name="Combine Circuits with ESP32" meeting="false" start="2024-11-05" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="23" uid="b72a3e9f0e3646509c3ebdaaaf0d9a52" name="PCB Design and Assembly" meeting="false" start="2024-10-31" duration="22" complete="0" expand="true">
+            <task id="24" uid="ee4feba6c58b4227830bc3e51166e039" name="Finalize Project Schematic" meeting="false" start="2024-10-31" duration="4" complete="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="ce120e798d054963a8e01fbfe2ecf4b3" name="Begin PCB Layout" meeting="false" start="2024-11-04" duration="4" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="181e6512bfca4ed5aed9c36b9f7bb0ed" name="Finalize Layout and Order From Osh Park" meeting="false" start="2024-11-08" duration="14" complete="0" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="27" uid="46935802947346f6aa1581d843312e53" name="Testing and Debugging" meeting="false" start="2024-11-22" duration="14" complete="0" expand="true">
+            <task id="28" uid="7dd4d426d3ce497a89ece275989a94e6" name="Hardware Debugging" meeting="false" start="2024-11-22" duration="7" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" uid="ca6d0e58711348709cd934549649b300" name="Software Debugging" meeting="false" start="2024-11-22" duration="7" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" uid="6c6af84c30df42cc91238327cc3f965f" name="Iterate Hardware and Firmware Changes" meeting="false" start="2024-11-22" duration="7" complete="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" uid="ab372680cc864e798e9e101478a8bd38" name="Optimize and Finalize Software and Hardware" meeting="false" start="2024-11-29" duration="7" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="35" uid="ce1273a663ee4db385f4c72e8cb31e30" name="Enclosure Design and Assembly" meeting="false" start="2024-11-20" duration="11" complete="0" expand="true">
+            <task id="36" uid="ef3308483745498c80bbe63f8b4d5c6e" name="Design Enclosure" meeting="false" start="2024-11-20" duration="2" complete="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="86903a830c32452abb840de4f36892d1" name="Manufacture and Assemble Enclosure" meeting="false" start="2024-11-22" duration="9" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="38" uid="8c8f856e7d7841cbb1569952cb76d6dc" name="Final Testing and Quality Assurance" meeting="false" start="2024-11-22" duration="15" complete="0" expand="true">
+            <task id="73" uid="44ca75cb1dc74dfeb8c8c426bc430d7a" name="Come up with Test Plan" meeting="false" start="2024-11-22" duration="1" complete="0" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" uid="c941e4519e9a40a28341a0f5d67fac7d" name="Extended Functionality Testing" meeting="false" start="2024-11-23" duration="10" complete="0" expand="true"/>
+            <task id="40" uid="d855e1d2080449d3a378d4d318090b3e" name="Performance Testing" meeting="false" start="2024-11-23" duration="10" complete="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" uid="d5b4a6f5544f43bd9f74c0864055a923" name="Finalize Project" meeting="false" start="2024-12-06" duration="1" complete="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="42" uid="a5d1c84462304261a2c9a5ae4a64021f" name="Documentation and Finalization" meeting="false" start="2024-11-29" duration="11" complete="0" expand="true">
+            <task id="43" uid="7507788f72e34bf89af415cb76b06eeb" name="Finalize Project Documentation" meeting="false" start="2024-11-29" duration="9" complete="0" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" uid="e5df9ea613dc441b87b2bbe8a7fac913" name="Packaging and Final Presentation" meeting="false" start="2024-12-08" duration="2" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
