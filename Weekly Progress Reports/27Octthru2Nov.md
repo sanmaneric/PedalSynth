@@ -15,9 +15,13 @@ Nothing to report, it's the weekend. :sleeping:
 ## Thursday ( :hamburger: Team Food Tour Day :cookie: )
  - #### :round_pushpin: Today's Food Tour Destination: Podnah's Pit BBQ
  - #### :star: Team Food Review: n/a
+Today, we met as a team and finalized our priliminary schematic. Each mode was cleaned up a bit and proper net labels were added.
+
+As a team, we clarified what the goals of our project are in terms of how input is taken for the synthesizer (pushbutton keyboard, no intrument input).
+
 
 ## Friday
 
 
 ## Saturday
-Nothing to report, it's the weekend. :sleeping:
+Eric got the boards from OSH Park and will assemble them soon!

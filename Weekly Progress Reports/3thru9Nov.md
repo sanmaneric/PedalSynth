@@ -1,10 +1,10 @@
-# :date: Weekly Progress Report for 27 through 2 November 2024
+# :date: Weekly Progress Report for 3 through 9 November 2024
 
 ## Sunday
-Nothing to report, it's the weekend. :sleeping:
+Eric got one of the amp boards assembled and it worked on the first try! The bass response is a little lacking, which is something to fix.
 
 ## Monday
-
+For the amplifiers, Eric changed the value of the aux input capacitor to a lower value, which extended the bass range as per the datasheet. More formal testing of the amplifier on a scope to come later this week.
 
 ## Tuesday
 
