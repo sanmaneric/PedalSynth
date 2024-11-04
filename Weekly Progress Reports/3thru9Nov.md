@@ -1,4 +1,4 @@
-# :date: Weekly Progress Report for 20 through 26 October 2024
+# :date: Weekly Progress Report for 27 through 2 November 2024
 
 ## Sunday
 Nothing to report, it's the weekend. :sleeping:
