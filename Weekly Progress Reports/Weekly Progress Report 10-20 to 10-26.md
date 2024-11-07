@@ -12,6 +12,9 @@
 		-Finalized microcontroller research and chose the best option to use for the Synth project (an ESP32 WRoom using Arduino) (2)
 		-Began to looking into Arduino libaries for PWM and signal generation(1)
 	Sierra Buckley
+		- chose filters to design, modeled in LTspice (4)
+		- git tutorial from Eric :) (1)
+		- also sick (?)
 	Chris Crider
 	
 ##Next Week
@@ -26,6 +29,8 @@
 		-Begin to watch tutorials to understand KiCad usage (2)
 		-Begin making a basic schematic for the ESP32 (1)
 	Sierra Buckley
+		- Redo work on PDS, block diagrams (2)
+		- get healthy (?)
 	Chris Crider
 	
 ##Blocked
@@ -36,6 +41,7 @@
 	Chuong Vo
 		-Nothing blocked
 	Sierra Buckley
+		- none
 	Chris Crider
 
 ## Sunday

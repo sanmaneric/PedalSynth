@@ -10,6 +10,8 @@
 	Chuong Vo
 		-Began researching the best processor to use for the project and the differences between arduino microcontrollers and Atmel microcontrollers (2)
 	Sierra Buckley
+		- watching kicad videos and becoming familiar with it (2)
+		- researching effects pedals for our design (2)
 	Chris Crider
 	
 ##Next Week
@@ -23,6 +25,7 @@
 		-Finalize research of microcontrollers and report findings to team (2)
 		-Choose a microcontrollers and begin research on potential libraries that could be used to for the synthesizer (2)
 	Sierra Buckley
+		- choose filters to design, model in LTspice (4)
 	Chris Crider
 	
 ##Blocked
@@ -33,6 +36,7 @@
 	Chuong Vo
 		-Nothing blocked
 	Sierra Buckley
+		- none
 	Chris Crider
 
 ## Sunday
