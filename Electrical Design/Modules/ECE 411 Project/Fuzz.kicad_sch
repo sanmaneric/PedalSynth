@@ -1071,7 +1071,7 @@
 		)
 		(uuid "ffd10cc1-7b59-4aa5-9053-f4159da2a542")
 	)
-	(hierarchical_label "-9V"
+	(hierarchical_label "NegVin"
 		(shape input)
 		(at 106.68 48.26 90)
 		(fields_autoplaced yes)
