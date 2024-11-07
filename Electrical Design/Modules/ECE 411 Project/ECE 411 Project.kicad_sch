@@ -3452,7 +3452,7 @@
 			(uuid "cd572e9f-f57a-4a31-b831-d52228e087b6")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR05")
 					(unit 1)
@@ -3588,7 +3588,7 @@
 			(uuid "b60b86a2-ea76-4752-97c1-e2dd315cf8aa")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR043")
 					(unit 1)
@@ -3726,7 +3726,7 @@
 			(uuid "9a444134-04ec-48a2-8081-ff3052b73cc0")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "C7")
 					(unit 1)
@@ -3796,7 +3796,7 @@
 			(uuid "f9c7d4cd-e21f-43f8-8524-da970068e1c5")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "D2")
 					(unit 1)
@@ -3881,7 +3881,7 @@
 			(uuid "fbfb8e9a-9396-47e8-a027-2b6abc7dd1ef")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "D1")
 					(unit 1)
@@ -3951,7 +3951,7 @@
 			(uuid "4add5dbc-5f66-4af6-a8a3-cf74295cedf5")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "O1")
 					(unit 1)
@@ -4021,7 +4021,7 @@
 			(uuid "58048628-d0a3-4130-b4d1-bec7feb887b6")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "C4")
 					(unit 1)
@@ -4089,7 +4089,7 @@
 			(uuid "1e7ecc42-0591-4b14-8714-c74732b21c2f")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "J1")
 					(unit 1)
@@ -4177,7 +4177,7 @@
 			(uuid "4c78e07a-0be8-416f-853d-8a1c2bc5de66")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "U2")
 					(unit 1)
@@ -4244,7 +4244,7 @@
 			(uuid "226743f4-52b7-4657-802a-4e9381c41e8e")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "J2")
 					(unit 1)
@@ -4314,7 +4314,7 @@
 			(uuid "52fc721e-80a2-4799-a630-e48550bf8a4d")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "C8")
 					(unit 1)
@@ -4380,7 +4380,7 @@
 			(uuid "2d1a1295-b491-4f53-ade4-59fcaf9e1405")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR023")
 					(unit 1)
@@ -4446,7 +4446,7 @@
 			(uuid "0f963a41-521c-41cf-a39a-7911d2d67001")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR046")
 					(unit 1)
@@ -4516,7 +4516,7 @@
 			(uuid "898d07f1-a26a-40f5-85fd-519f949a4fbd")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "C5")
 					(unit 1)
@@ -4582,7 +4582,7 @@
 			(uuid "6b6479bf-138b-4b32-8465-bfa8d0397aff")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR047")
 					(unit 1)
@@ -4648,7 +4648,7 @@
 			(uuid "9432da49-e233-4647-b562-9da4a046723a")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR09")
 					(unit 1)
@@ -4720,7 +4720,7 @@
 			(uuid "bcbe4154-fbc8-4b7e-9d30-ed5cb76d6ae3")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "U1")
 					(unit 1)
@@ -4932,7 +4932,7 @@
 			(uuid "d31e0d72-aa6f-4ea8-9359-db677b910c1c")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "R4")
 					(unit 1)
@@ -4998,7 +4998,7 @@
 			(uuid "69c9e3f1-5c8f-478e-9ec0-d25d54456b03")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR048")
 					(unit 1)
@@ -5064,7 +5064,7 @@
 			(uuid "8da6b3b5-1d4d-4e0b-a5bb-6e2eb841f066")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR06")
 					(unit 1)
@@ -5201,7 +5201,7 @@
 			(uuid "775db25b-9f26-4b7d-ad42-a124376bd6fa")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "#PWR01")
 					(unit 1)
@@ -5271,7 +5271,7 @@
 			(uuid "517d87ce-68eb-4365-8cfc-b2488ede1bf4")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "C22")
 					(unit 1)
