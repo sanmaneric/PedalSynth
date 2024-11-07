@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "66a13434-e162-4827-8512-44ad5e584833")
 	(paper "A4")
+	(title_block
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)

@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "c40de718-9e4f-4ad9-9c27-8cf26e7236d7")
 	(paper "A4")
+	(title_block
+		(title "Tremolo Effect")
+		(date "2024-11-07")
+		(rev "1.5")
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
 			(pin_names
@@ -917,126 +925,6 @@
 				)
 			)
 		)
-		(symbol "power:+9V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+9V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+9V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+9V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+9V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1404,6 +1292,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 154.94) (xy 138.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6924d7-ea0d-4a32-baa1-8f3a342f3299")
+	)
+	(wire
+		(pts
 			(xy 121.92 119.38) (xy 121.92 118.11)
 		)
 		(stroke
@@ -1464,6 +1362,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 142.875) (xy 87.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a2cd21-9f69-423a-8a6f-fa30d4a0edcb")
+	)
+	(wire
+		(pts
 			(xy 99.06 157.48) (xy 99.06 166.37)
 		)
 		(stroke
@@ -1491,6 +1399,16 @@
 			(type default)
 		)
 		(uuid "e59a7123-12be-4ccb-8e0b-02eea825cec2")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b12612-901f-4a48-a745-2dcc8d6ff492")
 	)
 	(wire
 		(pts
@@ -1552,19 +1470,19 @@
 		)
 		(uuid "f87c7979-ca92-4ed2-9501-ade3d239c8f3")
 	)
-	(wire
-		(pts
-			(xy 138.43 154.94) (xy 118.11 154.94)
+	(text "Speed"
+		(exclude_from_sim no)
+		(at 132.715 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe9d42b4-f83a-471e-972d-23e1af9019d6")
+		(uuid "e221e045-6f77-470d-bece-e36309dcd507")
 	)
-	(hierarchical_label "In"
+	(hierarchical_label "Vin"
 		(shape input)
-		(at 99.06 80.01 90)
+		(at 87.63 142.875 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1572,10 +1490,10 @@
 			)
 			(justify left)
 		)
-		(uuid "72a84fcb-e7a8-4aa3-8f03-a62d2433cd28")
+		(uuid "97e8c5c9-7199-48c1-8c40-3b74b7ec704d")
 	)
-	(hierarchical_label "Out"
-		(shape output)
+	(hierarchical_label "TREM"
+		(shape bidirectional)
 		(at 143.51 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1596,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e1d3ebe-a50d-41ce-a2aa-d0e64643052b")
-		(property "Reference" "RV3"
+		(property "Reference" "RV1"
 			(at 135.89 142.2399 0)
 			(effects
 				(font
@@ -1605,7 +1523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SPeed 10k"
+		(property "Value" "10k"
 			(at 135.89 144.7799 0)
 			(effects
 				(font
@@ -1614,7 +1532,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 143.51 0)
 			(effects
 				(font
@@ -1653,7 +1571,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
-					(reference "RV3")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -1687,7 +1605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-52-3"
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -1751,7 +1669,7 @@
 			(uuid "07ddfaa6-2b01-444d-965e-f77fcd9ac1f7")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "Q1")
 					(unit 1)
@@ -1787,7 +1705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 120.9548 119.38 0)
 			(effects
 				(font
@@ -1921,7 +1839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-8_W7.62mm_SideBrazed"
 			(at 110.49 154.94 0)
 			(effects
 				(font
@@ -1973,7 +1891,7 @@
 			(uuid "dcc3b01c-0404-47bd-9b44-1ccd1fe191d0")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "U7")
 					(unit 1)
@@ -2007,7 +1925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 107.95 131.318 90)
 			(effects
 				(font
@@ -2107,7 +2025,7 @@
 			(uuid "74ba95bc-2640-4f19-8bda-49a6333c3791")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "#PWR08")
 					(unit 1)
@@ -2134,7 +2052,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10uF"
 			(at 157.48 140.9699 0)
 			(effects
 				(font
@@ -2143,7 +2061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 152.7048 135.89 0)
 			(effects
 				(font
@@ -2210,7 +2128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 109.22 164.592 90)
 			(effects
 				(font
@@ -2280,7 +2198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 149.86 90)
 			(effects
 				(font
@@ -2324,7 +2242,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 87.63 0)
+		(at 99.06 92.075 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2333,7 +2251,7 @@
 		(fields_autoplaced yes)
 		(uuid "61d53aec-c742-4d39-8f97-3904215ce677")
 		(property "Reference" "#PWR011"
-			(at 99.06 93.98 0)
+			(at 99.06 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,7 +2260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 92.71 0)
+			(at 99.06 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 87.63 0)
+			(at 99.06 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 87.63 0)
+			(at 99.06 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 87.63 0)
+			(at 99.06 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.76 116.078 90)
 			(effects
 				(font
@@ -2457,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 83.82 0)
+		(at 99.06 88.265 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2466,7 +2384,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c5f129a-629d-4df8-8299-3cde5786af20")
 		(property "Reference" "R1"
-			(at 101.6 82.5499 0)
+			(at 101.6 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2393,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 101.6 85.0899 0)
+			(at 101.6 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,8 +2401,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.282 83.82 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.282 88.265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 83.82 0)
+			(at 99.06 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2420,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 83.82 0)
+			(at 99.06 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2435,7 @@
 			(uuid "965e1f17-da11-4da4-aa8f-706d2f213b4e")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "R1")
 					(unit 1)
@@ -2543,7 +2461,7 @@
 				)
 			)
 		)
-		(property "Value" "10nf"
+		(property "Value" "10nF"
 			(at 107.95 137.16 90)
 			(effects
 				(font
@@ -2551,7 +2469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.76 141.2748 0)
 			(effects
 				(font
@@ -2585,7 +2503,7 @@
 			(uuid "36ef9b24-ac5f-4476-8a8e-82e7e1e4377e")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "C2")
 					(unit 1)
@@ -2717,75 +2635,9 @@
 			(uuid "b31b0e1d-4fe8-46c5-8036-47f3034f146f")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 87.63 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aebf4985-488e-4116-9020-e2f73017297c")
-		(property "Reference" "#PWR09"
-			(at 87.63 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 87.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 87.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e2bef21-8a84-48cc-bb05-eea29fcecbd7")
-		)
-		(instances
-			(project ""
-				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2817,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 132.08 116.078 90)
 			(effects
 				(font
@@ -2885,7 +2737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -2922,7 +2774,7 @@
 			(uuid "037bac59-e376-4dd7-b557-0f55d6bf0f00")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/29e94901-2eb6-4d5f-9450-5a88f29fead6"
 					(reference "RV2")
 					(unit 1)
@@ -2958,7 +2810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.852 165.1 90)
 			(effects
 				(font

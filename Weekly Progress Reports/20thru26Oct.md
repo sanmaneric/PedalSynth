@@ -4,19 +4,20 @@
 Nothing to report, it's the weekend. :sleeping:
 
 ## Monday
-We focused on getting our Project Design Specification hashed out and uploaded into GitHub. Eric worked on getting more familiar with Markdown as well as KiCad. Eric is continuing to work on getting a preliminary amplifier design in KiCad. The amplifier is Class-D, and due to the HF nature of the circuit, it can't be prototyped on a breadboard. We plan on getting a PCB for this far in advance from the main class OSHPark order to test the circuit and layout to be implemented with the rest of the project later.
+Not much work today- Eric worked on KiCad a little bit.
 
 ## Tuesday
-Eric figured out ground plane via stiching in KiCad and how to make multiple schematics that tie to one file in KiCad.
+More in-depth work on KiCad: The layout for the amplifier is nearing completion.
 
 ## Wednesday
-Nothing to report.
+KiCad for the amplifier is starting to take final form. The componnets just need to be selected.
 
 ## Thursday ( :hamburger: Team Food Tour Day :cookie: )
- - #### :round_pushpin: Today's Food Tour Destination:
- - #### :star: Team Food Review: 
+ - #### :round_pushpin: Today's Food Tour Destination: No food tour this week! Sierra and Chris are sick this week.
+ - #### :star: Team Food Review: n/a
 
 ## Friday
+The board has been sent out to OSHpark! The components were also selected, however Eric realized he made a mistake with one of the capacitors so we'll have to stack two capactiros on one SMD pad- no big deal.
 
 ## Saturday
 Nothing to report, it's the weekend. :sleeping:

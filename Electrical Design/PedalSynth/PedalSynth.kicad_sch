@@ -8413,7 +8413,7 @@
 				)
 			)
 		)
-		(property "Value" ".47u"
+		(property "Value" ".27u"
 			(at 184.785 101.6 90)
 			(effects
 				(font
@@ -10426,7 +10426,7 @@
 				)
 			)
 		)
-		(property "Value" ".47u"
+		(property "Value" ".27u"
 			(at 184.785 107.95 90)
 			(effects
 				(font

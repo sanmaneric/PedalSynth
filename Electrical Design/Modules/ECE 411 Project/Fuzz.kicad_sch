@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "e8038b91-2f4a-4924-ac4d-03aa2f996acd")
 	(paper "A4")
+	(title_block
+		(title "Fuzz & Distortion Effect")
+		(date "2024-11-07")
+		(rev "1.5")
+		(company "Portland State University")
+		(comment 1 "Open Source Hardware")
+		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -738,12 +746,6 @@
 		)
 	)
 	(junction
-		(at 106.68 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1230d2f2-f5f6-4374-8a7a-3bead9c5cbaa")
-	)
-	(junction
 		(at 106.68 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -778,16 +780,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd8aab1a-ae98-44c2-b7f1-e8cbfd57680f")
-	)
-	(wire
-		(pts
-			(xy 58.42 90.17) (xy 74.93 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006b9c78-6d0d-4466-89ab-b6039626381a")
 	)
 	(wire
 		(pts
@@ -871,16 +863,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 114.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373b3a5d-f58c-4319-99c2-038ff3b921bb")
-	)
-	(wire
-		(pts
 			(xy 107.95 85.09) (xy 96.52 85.09)
 		)
 		(stroke
@@ -898,16 +880,6 @@
 			(type default)
 		)
 		(uuid "3a23813f-e7cd-43e1-bc5c-687080df9143")
-	)
-	(wire
-		(pts
-			(xy 83.82 48.26) (xy 83.82 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ab8782-f9cc-440a-883a-ba427a3dc7dd")
 	)
 	(wire
 		(pts
@@ -1001,6 +973,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79438d12-34e1-4ae1-be4b-2093c56a5410")
+	)
+	(wire
+		(pts
 			(xy 119.38 114.3) (xy 125.73 114.3)
 		)
 		(stroke
@@ -1008,16 +990,6 @@
 			(type default)
 		)
 		(uuid "998edb93-d3fa-41fb-91c9-db6219e2163a")
-	)
-	(wire
-		(pts
-			(xy 114.3 46.99) (xy 114.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3276bf2-7eca-485e-b7d5-c7a94725eb9f")
 	)
 	(wire
 		(pts
@@ -1048,16 +1020,6 @@
 			(type default)
 		)
 		(uuid "b10f421f-a077-4f81-b2fe-aa9aaf27ac82")
-	)
-	(wire
-		(pts
-			(xy 106.68 48.26) (xy 83.82 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b885a9-6b19-44fd-9dcd-0f6fff84b475")
 	)
 	(wire
 		(pts
@@ -1109,9 +1071,21 @@
 		)
 		(uuid "ffd10cc1-7b59-4aa5-9053-f4159da2a542")
 	)
-	(global_label "9V"
+	(hierarchical_label "NegVin"
 		(shape input)
-		(at 83.82 55.88 180)
+		(at 106.68 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27437acb-ca3c-45c9-9310-7f60b3667e55")
+	)
+	(hierarchical_label "FUZZIN"
+		(shape input)
+		(at 57.15 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1119,42 +1093,10 @@
 			)
 			(justify right)
 		)
-		(uuid "897d76f3-0bb7-44d9-9efa-7753c5e26dcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.5367 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "6bc2929f-a593-4b02-8598-d1e18763e738")
 	)
-	(global_label "Input"
-		(shape input)
-		(at 58.42 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90626935-23a2-4041-a102-b1b85232f226")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6573 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Output"
-		(shape input)
+	(hierarchical_label "FUZZOUT"
+		(shape output)
 		(at 162.56 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1163,39 +1105,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d0513773-3264-44dd-b0f1-ed4e2676c70e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.7741 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-9V"
-		(shape input)
-		(at 114.3 46.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6522082-73c1-45f5-b305-83a1187aea2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 40.1343 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "fc007e06-7200-4dc0-a1ef-c367ad8e7ad5")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PNP")
@@ -1225,7 +1135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-52-3"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -1289,7 +1199,7 @@
 			(uuid "13b24fcc-13a5-40a3-a569-9b7310a9ef0b")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "Q5")
 					(unit 1)
@@ -1305,7 +1215,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34ceccf7-86a9-464f-8c65-d3479abd45b0")
 		(property "Reference" "RV4"
 			(at 135.89 74.9299 0)
@@ -1316,8 +1225,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 135.89 77.4699 0)
+		(property "Value" "100k Pot"
+			(at 150.495 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -1362,7 +1271,7 @@
 			(uuid "a7e5eafb-72c3-4d1b-b1ae-5ccc86f4266a")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "RV4")
 					(unit 1)
@@ -1396,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 82.55 89.2048 0)
 			(effects
 				(font
@@ -1430,7 +1339,7 @@
 			(uuid "bb46c749-745a-4130-a454-5523e8f93768")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "C38")
 					(unit 1)
@@ -1464,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 132.08 68.8848 0)
 			(effects
 				(font
@@ -1517,7 +1426,7 @@
 		(fields_autoplaced yes)
 		(uuid "594c4b58-2db2-434d-9e49-6da01c6930b9")
 		(property "Reference" "C40"
-			(at 129.7216 119.3799 0)
+			(at 129.54 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +1435,7 @@
 			)
 		)
 		(property "Value" "20uF"
-			(at 129.7216 121.9199 0)
+			(at 129.54 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 124.7648 116.84 0)
 			(effects
 				(font
@@ -1604,7 +1513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -1677,7 +1586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-52-3"
 			(at 148.59 90.17 0)
 			(effects
 				(font
@@ -1777,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 94.742 73.66 90)
 			(effects
 				(font
@@ -1811,7 +1720,7 @@
 			(uuid "4139b414-c3be-4d92-b4e6-25e9dd9dbe07")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "R45")
 					(unit 1)
@@ -1911,7 +1820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 96.52 105.918 90)
 			(effects
 				(font
@@ -1981,7 +1890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.792 60.96 90)
 			(effects
 				(font
@@ -2051,7 +1960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 113.792 77.47 90)
 			(effects
 				(font
@@ -2151,7 +2060,7 @@
 			(uuid "32303691-dea6-4021-9b77-1e40ea3f4eaf")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "#PWR041")
 					(unit 1)
