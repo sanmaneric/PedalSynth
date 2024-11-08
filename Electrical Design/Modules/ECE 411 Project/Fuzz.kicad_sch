@@ -803,6 +803,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 95.885) (xy 104.775 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a381c8e-3411-4ec0-b13c-e00c64a57e66")
+	)
+	(wire
+		(pts
 			(xy 138.43 80.01) (xy 138.43 90.17)
 		)
 		(stroke
@@ -953,6 +963,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.775 95.885) (xy 104.775 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712b96d2-4169-4e81-b2d3-41c1cdb28996")
+	)
+	(wire
+		(pts
 			(xy 82.55 90.17) (xy 86.36 90.17)
 		)
 		(stroke
@@ -990,6 +1010,16 @@
 			(type default)
 		)
 		(uuid "998edb93-d3fa-41fb-91c9-db6219e2163a")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 96.52 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a2da90-4975-454a-8057-b4625cbfc73e")
 	)
 	(wire
 		(pts
@@ -1274,6 +1304,72 @@
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.775 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "479cd000-20ef-4865-a721-1df6bc69de33")
+		(property "Reference" "#PWR011"
+			(at 104.775 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.775 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.775 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.775 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad25581-ad5d-4b5b-8f64-8f4680a34a83")
+		)
+		(instances
+			(project ""
+				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
