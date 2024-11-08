@@ -25,7 +25,11 @@ As a team, we worked on preparing the Gantt chart and all of its dependencies.
 ## Thursday ( :hamburger: Team Food Tour Day :cookie: )
  - #### :round_pushpin: Today's Food Tour Destination: 
  - #### :star: Team Food Review: n/a
-
+Sierra
+    - Ordered some parts (2)
+    - Added more to BOM (1)
+    - Plan to test more when correct parts get into town 
+    - will work on next weeks assignments(block diagrams & BOM)
 ## Friday
 
 
