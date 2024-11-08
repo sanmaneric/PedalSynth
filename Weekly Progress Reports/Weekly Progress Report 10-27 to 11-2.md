@@ -13,6 +13,10 @@
 		-Began to model seperate schematics on Kikad based on the chosen effects that the synthesizer can perform (1.5)
 		-Began to write Arduino code for the PWM function (1)
 	Sierra Buckley
+		- redid PDS and block diagrams (2)
+		- started breadboarding effects (2)
+		- kicad adjustments (2)
+		- team effort on BOM (2)
 	Chris Crider
 	
 ##Next Week
@@ -29,6 +33,9 @@
 		-Continue to write Arduino code (1)
 		-Create and fill out a Gantt Chart for the Project scheadule (2)
 	Sierra Buckley
+		- continue kicad adjustments with new additions with team (2)
+		- team effort on BOM (2)
+		- continue breadboarding effects (2)
 	Chris Crider
 	
 ##Blocked
