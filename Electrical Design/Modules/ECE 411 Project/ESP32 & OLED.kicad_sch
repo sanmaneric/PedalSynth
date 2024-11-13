@@ -1426,6 +1426,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 144.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 144.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 144.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "a1ea48bf-d64a-4cac-af9a-1960ade9df1d")
 		)

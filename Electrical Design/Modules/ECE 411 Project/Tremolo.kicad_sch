@@ -1785,6 +1785,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 135.255 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 135.255 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 135.255 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6adb58a0-db7a-4e34-bd2b-cb39d1a3d017")
 		)
@@ -1937,6 +1964,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL31B475KAHNNNE"
+			(at 112.395 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 112.395 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
+			(at 112.395 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a6ea10b-9251-4c7c-b235-3b0d9805d0a1")
 		)
@@ -1999,6 +2053,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.335 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 140.335 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 140.335 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 140.335 94.615 0)
 			(effects
 				(font
@@ -2207,6 +2288,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 149.86 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 149.86 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 149.86 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ae6698a-321b-4826-b966-1d7cd0089901")
 		)
@@ -2270,6 +2378,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 166.37 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 166.37 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 166.37 111.125 0)
 			(effects
 				(font
@@ -2348,6 +2483,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a3c4c64-1977-4835-adea-b56d7f510be7")
 		)
@@ -2411,6 +2573,33 @@
 			)
 		)
 		(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
+			(at 180.34 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 180.34 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 180.34 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 180.34 113.665 0)
 			(effects
 				(font

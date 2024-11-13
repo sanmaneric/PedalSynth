@@ -2480,6 +2480,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e79f1a43-622c-4f93-a3ff-6911ad7c25f0")
 		)
@@ -2540,6 +2567,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 148.59 111.76 0)
 			(effects
 				(font
@@ -2610,6 +2664,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 193.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 193.04 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 193.04 153.67 0)
 			(effects
 				(font
@@ -2718,7 +2799,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.0082uF"
+		(property "Value" "8.2nF"
 			(at 81.28 146.0499 0)
 			(effects
 				(font
@@ -2746,6 +2827,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0402C822K1RACAUTO"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 77.47 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 77.47 144.78 0)
 			(effects
 				(font
@@ -2787,7 +2895,7 @@
 				)
 			)
 		)
-		(property "Value" "0.033uF"
+		(property "Value" "33nF"
 			(at 118.11 138.43 90)
 			(effects
 				(font
@@ -2814,6 +2922,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0805C333K1RECAUTO"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -2882,6 +3017,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -2960,6 +3122,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d87abe1-6bc7-4c0e-9359-759e520695a8")
 		)
@@ -2994,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.033u"
+		(property "Value" "33nF"
 			(at 46.99 126.9999 0)
 			(effects
 				(font
@@ -3022,6 +3211,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0805C333K1RECAUTO"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 43.18 125.73 0)
 			(effects
 				(font
@@ -3063,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Value" "0.068uF"
+		(property "Value" "68nF"
 			(at 77.47 16.51 90)
 			(effects
 				(font
@@ -3090,6 +3306,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "KGM21NR71H683KT "
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 77.47 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
 			(at 77.47 21.59 0)
 			(effects
 				(font
@@ -3269,6 +3512,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 148.59 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 148.59 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 148.59 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bcad43d7-e425-4869-9a75-59d6a75eb392")
 		)
@@ -3338,6 +3608,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 54.61 138.43 0)
 			(effects
 				(font
@@ -3480,6 +3777,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a26c0e9-c8b2-4cfc-baf5-77d735c1178a")
 		)
@@ -3540,6 +3864,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 71.12 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -3647,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Value" "0.0068uF"
+		(property "Value" "6.8nF"
 			(at 143.51 120.65 90)
 			(effects
 				(font
@@ -3674,6 +4025,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -3750,6 +4128,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c713530-3006-4a6b-8c57-80845557a91e")
 		)
@@ -3810,6 +4215,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 142.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -3954,6 +4386,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c3688e7-baeb-4013-87ec-3cb2c6ad50ce")
 		)
@@ -4006,7 +4465,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.0033uF"
+		(property "Value" "3.3nF"
 			(at 153.67 55.8799 0)
 			(effects
 				(font
@@ -4034,6 +4493,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0805C332K1RECAUTO"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 149.86 54.61 0)
 			(effects
 				(font
@@ -4177,6 +4663,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d44f7f-c6f8-4106-99b5-8980b2460bb7")
 		)
@@ -4239,6 +4752,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 45.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 45.72 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 45.72 144.78 0)
 			(effects
 				(font
@@ -4317,6 +4857,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e286ae58-3921-48a3-9bb2-1babbffffabe")
 		)
@@ -4379,6 +4946,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0805C471K5RAC7800"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
 			(at 92.71 144.78 0)
 			(effects
 				(font
@@ -4513,6 +5107,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 148.59 99.06 0)
 			(effects
 				(font
@@ -4659,6 +5280,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 101.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d287982b-2c11-4d15-a84b-0bf8e1c4116c")
 		)
@@ -4722,6 +5370,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 128.27 143.51 0)
 			(effects
 				(font
@@ -4795,6 +5470,33 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 48.26 33.02 0)
 			(effects
 				(font
@@ -4910,6 +5612,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "28e530f7-ac5f-45a8-9843-1028045d7c12")
 		)
@@ -4979,6 +5708,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 172.72 146.05 0)
 			(effects
 				(font
@@ -5121,6 +5877,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28090283-1e0f-4d0c-908c-c6f77589df01")
 		)
@@ -5183,6 +5966,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -5259,6 +6069,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 156.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 156.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 156.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7444d685-f35a-4928-b842-67f0a4a6ebcd")
 		)
@@ -5324,6 +6161,33 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -5469,6 +6333,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21B334KBFNNNE "
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a75b414-4ac8-40b4-b7cd-b105dee25f36")
 		)
@@ -5529,6 +6420,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B473KBCNNNC"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
 			(at 63.5 41.91 0)
 			(effects
 				(font
@@ -5605,6 +6523,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37497ee5-7e20-4e68-85cd-7c298f89601f")
 		)
@@ -5639,7 +6584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.0082uF"
+		(property "Value" "8.2nF"
 			(at 170.18 55.8799 0)
 			(effects
 				(font
@@ -5667,6 +6612,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0402C822K1RACAUTO"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 166.37 54.61 0)
 			(effects
 				(font
@@ -5745,6 +6717,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "C0805C471K5RAC7800"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "430bfa23-75e0-4333-935b-b601d65a037d")
 		)
@@ -5805,6 +6804,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 104.14 21.59 0)
 			(effects
 				(font
@@ -5881,6 +6907,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 87.63 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 87.63 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 87.63 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed84783f-1c44-4c16-be8b-cb11f55610b2")
 		)
@@ -5943,6 +6996,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 133.35 54.61 0)
 			(effects
 				(font
@@ -6077,6 +7157,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -6220,6 +7327,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4586933-3032-4c68-b695-a84c59e0a7be")
 		)
@@ -6288,6 +7422,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "422deede-00d8-4f69-aebc-a32b0f56d500")
 		)
@@ -6322,7 +7483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.0033uF"
+		(property "Value" "3.3nF"
 			(at 64.77 146.0499 0)
 			(effects
 				(font
@@ -6350,6 +7511,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C0805C332K1RECAUTO"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 60.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(50)"
 			(at 60.96 144.78 0)
 			(effects
 				(font
@@ -6457,7 +7645,7 @@
 				)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "47nF"
 			(at 24.13 27.94 90)
 			(effects
 				(font
@@ -6484,6 +7672,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B473KBCNNNC"
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 24.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
 			(at 24.13 33.02 0)
 			(effects
 				(font

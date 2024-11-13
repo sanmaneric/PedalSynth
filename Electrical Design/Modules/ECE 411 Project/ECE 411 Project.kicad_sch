@@ -4646,6 +4646,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 28.575 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 28.575 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8900ae6a-03b1-462f-9946-d583e21b72c3")
 		)
@@ -4774,6 +4801,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 129.54 138.43 0)
 			(effects
 				(font
@@ -4916,6 +4970,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64b17924-a91a-43c0-aad7-6a512c90940a")
 		)
@@ -4950,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 83.82 145.4149 0)
 			(effects
 				(font
@@ -4978,6 +5059,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21B104KCFNNNE"
+			(at 80.01 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 80.01 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100)"
 			(at 80.01 144.145 0)
 			(effects
 				(font
@@ -5056,6 +5164,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 53.975 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 53.975 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 53.975 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27bff355-ffe1-4f59-b5c4-ee986bca1d0e")
 		)
@@ -5115,6 +5250,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 28.575 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 28.575 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 28.575 22.86 0)
 			(effects
 				(font
@@ -5208,6 +5370,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23b7f157-926a-453a-877a-1d43b78f9840")
 		)
@@ -5267,6 +5456,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.195 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 36.195 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 36.195 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 36.195 127 0)
 			(effects
 				(font
@@ -5342,6 +5558,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 28.575 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 28.575 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe169356-678d-46ba-848e-db8cb5fa40b4")
 		)
@@ -5409,6 +5652,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 28.575 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 28.575 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9f609cc-e777-4330-b55b-f4fc4d6fdac1")
 		)
@@ -5468,6 +5738,33 @@
 			)
 		)
 		(property "Description" "Potentiometer"
+			(at 194.945 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 194.945 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "AMZ"
+			(at 194.945 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 194.945 93.345 0)
 			(effects
 				(font
@@ -5547,6 +5844,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 154.305 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "AMZ"
+			(at 154.305 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 154.305 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7121a225-fae9-4073-8cee-e407b7cd49e5")
 		)
@@ -5593,7 +5917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P20.00mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 51.7652 125.095 0)
 			(effects
 				(font
@@ -5612,6 +5936,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31B106KAHNFNE"
+			(at 50.8 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 50.8 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100"
 			(at 50.8 121.285 0)
 			(effects
 				(font
@@ -5753,6 +6104,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 27.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 27.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 27.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e65680ad-3937-422f-ad48-8220649f15b0")
 		)
@@ -5815,6 +6193,33 @@
 			)
 		)
 		(property "Description" "Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8"
+			(at 106.045 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 106.045 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 106.045 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 106.045 154.94 0)
 			(effects
 				(font
@@ -5908,6 +6313,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 106.045 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 106.045 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 106.045 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65db9a55-bf0c-4cb4-9390-d6684890a293")
 		)
@@ -5970,6 +6402,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 98.425 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "UVR2C100MPD "
+			(at 98.425 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 98.425 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(15)"
 			(at 98.425 172.085 0)
 			(effects
 				(font
@@ -6114,6 +6573,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "UVK2A470MPD"
+			(at 66.675 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 66.675 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(15)"
+			(at 66.675 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6d9b5f4-20bf-411f-ae1c-f4afda50e5b5")
 		)
@@ -6239,6 +6725,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 28.575 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 28.575 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 28.575 29.21 0)
 			(effects
 				(font
@@ -6381,6 +6894,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 113.03 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "AMZ"
+			(at 113.03 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 113.03 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b48483bd-d8db-4fc5-954c-027e56d885e0")
 		)
@@ -6445,6 +6985,33 @@
 			)
 		)
 		(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+			(at 63.5 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 63.5 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "SBP"
+			(at 63.5 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 63.5 118.745 0)
 			(effects
 				(font
@@ -6523,6 +7090,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 28.575 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 28.575 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb16e12a-92c4-4d60-a90b-78c9b9954a60")
 		)
@@ -6590,6 +7184,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 210.185 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 210.185 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 210.185 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8641279-bd12-4940-9524-6ec307924dec")
 		)
@@ -6649,6 +7270,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 36.195 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 36.195 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 36.195 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 36.195 118.745 0)
 			(effects
 				(font
@@ -6964,6 +7612,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 255.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 255.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 255.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2_2"
 			(uuid "e8ff1291-5f93-44ce-9e86-a11a7ec3385b")
 		)
@@ -7037,6 +7712,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 28.575 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 28.575 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07f3e0cf-2676-49b1-8eb4-d9f268cfbb92")
 		)
@@ -7096,6 +7798,33 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 28.575 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 28.575 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "TAYDA"
+			(at 28.575 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 28.575 67.31 0)
 			(effects
 				(font
@@ -7173,6 +7902,33 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "87a06fd3-5152-4e79-8531-26932eef1eca")
 		)
@@ -7241,6 +7997,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 129.54 127 0)
 			(effects
 				(font
@@ -7424,7 +8207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 76.5302 125.095 0)
 			(effects
 				(font
@@ -7443,6 +8226,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 75.565 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL31B106KAHNFNE"
+			(at 75.565 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 75.565 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" "(100"
 			(at 75.565 121.285 0)
 			(effects
 				(font
@@ -7579,6 +8389,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 129.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 129.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Origin" "DK"
+			(at 129.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "On Hand (On Way)" ""
 			(at 129.54 173.99 0)
 			(effects
 				(font
