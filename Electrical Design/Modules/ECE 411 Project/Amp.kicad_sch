@@ -6585,7 +6585,7 @@
 			(uuid "0423a495-4201-4e60-8f9e-11b33a267e98")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
 					(reference "#PWR030")
 					(unit 1)

@@ -1421,7 +1421,7 @@
 			(uuid "1ad25581-ad5d-4b5b-8f64-8f4680a34a83")
 		)
 		(instances
-			(project ""
+			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/3d12698d-f95b-4276-b064-730c4280216d"
 					(reference "#PWR011")
 					(unit 1)
