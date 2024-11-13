@@ -6585,7 +6585,7 @@
 			(uuid "0423a495-4201-4e60-8f9e-11b33a267e98")
 		)
 		(instances
-			(project "ECE 411 Project"
+			(project ""
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
 					(reference "#PWR030")
 					(unit 1)
@@ -7481,7 +7481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b907e350-7d87-4823-814c-0c5fce0e9214")
-		(property "Reference" "TPSP2"
+		(property "Reference" "SPK-"
 			(at 194.945 98.425 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
-					(reference "TPSP2")
+					(reference "SPK-")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e49a781f-cf3f-4e34-b03d-b5944c7ac46f")
-		(property "Reference" "TPSP1"
+		(property "Reference" "SPK+"
 			(at 198.755 80.01 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
-					(reference "TPSP1")
+					(reference "SPK+")
 					(unit 1)
 				)
 			)

@@ -1161,6 +1161,15 @@
 		(at 218.44 53.34)
 		(uuid "bfa08c3a-c639-4cb0-938b-120806e1fdae")
 	)
+	(bus_entry
+		(at 234.95 2.54)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d790e954-3280-4d80-a5f7-1dd9e77a7842")
+	)
 	(wire
 		(pts
 			(xy 156.21 146.05) (xy 165.1 146.05)
@@ -3512,7 +3521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "IC-400-1033"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -3530,7 +3539,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" ""
+		(property "On Hand (On Way)" "8"
 			(at 148.59 146.05 0)
 			(effects
 				(font
@@ -5612,7 +5621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "IC-400-1033"
 			(at 105.41 44.45 0)
 			(effects
 				(font
@@ -5630,7 +5639,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" ""
+		(property "On Hand (On Way)" "8"
 			(at 105.41 44.45 0)
 			(effects
 				(font
