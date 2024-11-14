@@ -1,4 +1,11 @@
-24203375765344786
+24205107345902258
+1190297
+PHOENIX_1190297
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65457,6 +65464,13 @@ onion omega module
 89
 64
 Module
+PinHeader_ESP32_WROOM_Narrow
+
+
+0
+38
+38
+Module
 Pololu_Breakout-16_15.2x20.3mm
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
 Pololu Breakout
@@ -85504,13 +85518,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-Pheonix-2P-Level1190297
-PHOENIX_1190297
-
-
-0
-4
-4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
