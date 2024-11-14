@@ -7481,7 +7481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b907e350-7d87-4823-814c-0c5fce0e9214")
-		(property "Reference" "SPK-"
+		(property "Reference" "SPK-1"
 			(at 194.945 98.425 0)
 			(effects
 				(font
@@ -7559,7 +7559,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
-					(reference "SPK-")
+					(reference "SPK-1")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e49a781f-cf3f-4e34-b03d-b5944c7ac46f")
-		(property "Reference" "SPK+"
+		(property "Reference" "SPK+1"
 			(at 198.755 80.01 0)
 			(effects
 				(font
@@ -8237,7 +8237,7 @@
 		(instances
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/fc48e9dd-306b-4a9b-831b-312573108cdc"
-					(reference "SPK+")
+					(reference "SPK+1")
 					(unit 1)
 				)
 			)
