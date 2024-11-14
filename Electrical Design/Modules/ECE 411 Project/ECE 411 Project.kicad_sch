@@ -8314,7 +8314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "OLED-I2C"
 			(at 94.615 45.72 0)
 			(effects
 				(font

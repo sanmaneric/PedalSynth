@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "20W Mono Class-D Audio Amplifier")
-		(date "2024-11-07")
-		(rev "2.5")
+		(date "2024-11-13")
+		(rev "2.6")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman")
@@ -5299,7 +5299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 83.82 78.74 0)
 			(effects
 				(font
@@ -5807,7 +5807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 210.185 92.71 0)
 			(effects
 				(font
@@ -5896,21 +5896,21 @@
 		(fields_autoplaced yes)
 		(uuid "1e3a2e60-e6c4-4ab1-83e4-2596fcd45f09")
 		(property "Reference" "C33"
-			(at 122.555 112.395 0)
+			(at 129.54 112.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" ".27u"
-			(at 122.555 114.935 0)
+		(property "Value" ".1uF"
+			(at 129.54 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -6097,7 +6097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -6192,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Value" ".47u"
+		(property "Value" ".47uf"
 			(at 179.07 109.22 90)
 			(effects
 				(font
@@ -6354,7 +6354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" ".1uF"
 			(at 88.265 101.6 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "33uF"
 			(at 193.04 102.235 90)
 			(effects
 				(font
@@ -6810,7 +6810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 88.265 71.12 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 127.635 80.01 0)
 			(effects
 				(font
@@ -7138,7 +7138,7 @@
 				)
 			)
 		)
-		(property "Value" ".47u"
+		(property "Value" ".47uF"
 			(at 179.07 102.87 90)
 			(effects
 				(font
@@ -7394,7 +7394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1u"
+		(property "Value" ".1uF"
 			(at 88.265 79.375 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				)
 			)
 		)
-		(property "Value" "33u"
+		(property "Value" "33uF"
 			(at 193.04 83.185 90)
 			(effects
 				(font
@@ -7881,7 +7881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 210.185 110.49 0)
 			(effects
 				(font
@@ -8073,7 +8073,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 106.68 113.665 90)
 			(effects
 				(font
