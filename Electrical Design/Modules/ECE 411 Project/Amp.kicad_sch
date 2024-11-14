@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "20W Mono Class-D Audio Amplifier")
-		(date "2024-11-13")
-		(rev "2.6")
+		(date "2024-11-14")
+		(rev "r2.7")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman")

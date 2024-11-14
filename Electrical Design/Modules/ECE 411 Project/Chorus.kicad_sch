@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Chorus Effect")
-		(date "2024-11-07")
+		(date "2024-11-14")
 		(rev "1.5")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
