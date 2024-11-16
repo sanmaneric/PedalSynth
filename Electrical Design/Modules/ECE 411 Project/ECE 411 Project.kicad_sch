@@ -5,9 +5,9 @@
 	(uuid "2625e5a1-d0c8-41ce-941d-75d035a5f1c5")
 	(paper "A4")
 	(title_block
-		(title "PedalSynth PWM Synthesizer")
+		(title "SynthBuddy")
 		(date "2024-11-14")
-		(rev "r2.0")
+		(rev "r2.1")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
