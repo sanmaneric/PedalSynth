@@ -47,6 +47,9 @@
 	Eric Sanman
 		- Created collaboration site
         - Gave team a basic introduction and overview of Git
+        - Continued to work on Class-D amplifier design in KiCad (finalize layout, ground stiching, etc.) (4)
+        - Select and order parts for amplifier from DigiKey (2)
+        - Ordered Class-D amplifier from OSH Park (.5)
 	Chuong Vo
 		- Finalized microcontroller research and chose the best option to use for the Synth project (an ESP32 WRoom using Arduino) (2)
 		- Began to looking into Arduino libaries for PWM and signal generation(1)
@@ -62,9 +65,9 @@
 		- Begin to brainstorm ideas and write the Product Design Specification
 		- Begin assembling Breadboard Prototype
 	Eric Sanman
-		- Continued to work on Class-D amplifier design in KiCad (finalize layout, ground stiching, etc.) (4)
-        - Select and order parts for amplifier from DigiKey (2)
-		- Ordered Class-D amplifier from OSH Park (.5)
+		- Receive board from OSH Park and parts from DigiKey
+        - Begin built & test of Class-D amplifier
+        - Work with the team on integrating other modules in KiCad
 	Chuong Vo
 		-Finalize research of Arduino libaries for PWM/Signal Generation (2)
 		-Begin to watch tutorials to understand KiCad usage (2)
@@ -95,7 +98,11 @@
 		-Design work began on Kikad for the priliminary schematic of the synthesizer.
 		-Began Testing individual circuit modules to ensure design works
 	Eric Sanman
-		- 
+		- Received boards from OSH Park (0)
+        - Received parts from DigiKey (0)
+        - Try to build one amplifier (4)
+        - Amplifier works great, but the input rolls-off low freq. too qucikly. Making adjustments to component values on board (1)
+        - Update KiCad design based off of flaws (DC input, inductors wrong footprints), update schematic values (1)
 	Chuong Vo
 		-Finished watching Kikad tutorial Video (2)
 		-Began to model seperate schematics on Kikad based on the chosen effects that the synthesizer can perform (1.5)
@@ -114,11 +121,10 @@
 		-Begin to clean up Preliminary schematic and transition it into a Final Schematic
 		-Begin creating a PCB layout based off of schematic
 	Eric Sanman
-		- Received boards from OSH Park (0)
-		- Received parts from DigiKey (0)
-        - Try to build one amplifier (4)
-        - Amplifier works great, but the input rolls-off low freq. too qucikly. Making adjustments to component values on board (1)
-        - Update KiCad design based off of flaws (DC input, inductors wrong footprints), update schematic values (1)
+		- Work with other team members on integrating parts into the schematic
+        - Clean up and add descriptions to modules in KiCad
+        - Check titleblocks
+        - Find footprints for all parts
 	Chuong Vo
 		-Finish modeling the Effect schematics for the synthesizer and connect them all together before sending them over to Eric for quality assurance(2)
 		-Continue to write Arduino code (1)
@@ -169,7 +175,12 @@
 		-Finalize the circuit connections and compose a L0 and L1 Functional Decomposition
 		-Begin to clean up CAD layout and add component traces
 	Eric Sanman
-
+        - Work on enhancing the layout in KiCad, adding:
+            - Mounting holes
+            - Cleaner amp routing
+            - Add LEDs to board
+            - Update schematic based on testing changes
+            - Fix pin header, power jack, and inductor footprints
 	Chuong Vo
 	
 	Sierra Buckley
@@ -181,7 +192,7 @@
 	Team Blocks
 		-
 	Eric Sanman
-		-
+		- Nothing
 	Chuong Vo
 		-
 		
@@ -198,7 +209,8 @@
 		- The initial CAD was updated with components being put into place and traces were put into place. 
 		
 	Eric Sanman
-	
+        - Generated ESP32 pin tracking sheet for assisiting programming
+        - 
 	Chuong Vo
 	
 	Sierra Buckley
