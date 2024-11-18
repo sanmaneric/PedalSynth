@@ -45,8 +45,8 @@
 		- The collaboration site was officially launched and the three projects, pick one assignment was submitted
 		- Work began on the Product Design Specification after a group meeting on 10-17-24 with good progress being made but it is still being written up.
 	Eric Sanman
-		- Created collaboration site
-        - Gave team a basic introduction and overview of Git
+		- Created collaboration site (1)
+        - Gave team a basic introduction and overview of Git (1)
         - Continued to work on Class-D amplifier design in KiCad (finalize layout, ground stiching, etc.) (4)
         - Select and order parts for amplifier from DigiKey (2)
         - Ordered Class-D amplifier from OSH Park (.5)
@@ -65,9 +65,9 @@
 		- Begin to brainstorm ideas and write the Product Design Specification
 		- Begin assembling Breadboard Prototype
 	Eric Sanman
-		- Receive board from OSH Park and parts from DigiKey
-        - Begin built & test of Class-D amplifier
-        - Work with the team on integrating other modules in KiCad
+		- Receive board from OSH Park and parts from DigiKey (0)
+        - Begin built & test of Class-D amplifier (4)
+        - Work with the team on integrating other modules in KiCad (2)
 	Chuong Vo
 		-Finalize research of Arduino libaries for PWM/Signal Generation (2)
 		-Begin to watch tutorials to understand KiCad usage (2)
@@ -121,10 +121,10 @@
 		-Begin to clean up Preliminary schematic and transition it into a Final Schematic
 		-Begin creating a PCB layout based off of schematic
 	Eric Sanman
-		- Work with other team members on integrating parts into the schematic
-        - Clean up and add descriptions to modules in KiCad
-        - Check titleblocks
-        - Find footprints for all parts
+		- Work with other team members on integrating parts into the schematic (2)
+        - Clean up and add descriptions to modules in KiCad (.5)
+        - Check titleblocks (.25)
+        - Find footprints for all parts (3)
 	Chuong Vo
 		-Finish modeling the Effect schematics for the synthesizer and connect them all together before sending them over to Eric for quality assurance(2)
 		-Continue to write Arduino code (1)
@@ -175,7 +175,7 @@
 		-Finalize the circuit connections and compose a L0 and L1 Functional Decomposition
 		-Begin to clean up CAD layout and add component traces
 	Eric Sanman
-        - Work on enhancing the layout in KiCad, adding:
+        - Work on enhancing the layout in KiCad, adding (6):
             - Mounting holes
             - Cleaner amp routing
             - Add LEDs to board
@@ -194,7 +194,7 @@
 	Team Blocks
 		-
 	Eric Sanman
-		- Nothing
+		- Finaliztion of PCB depends on sucessful test of chorus module
 	Chuong Vo
 		- Nothing Blocked
 		- Finding components that are in stock and ship quickly
@@ -212,8 +212,9 @@
 		- The initial CAD was updated with components being put into place and traces were put into place. 
 		
 	Eric Sanman
-        - Generated ESP32 pin tracking sheet for assisiting programming
-        - Tested and Debugged ESp32 Code and circuit (4)
+        - Generated ESP32 pin tracking sheet for assisiting programming (1)
+        - Tested and Debugged ESP32 Code and circuit (4)
+        - Added bypass jumper/switch for the chrous module in case it ends up not working, updated PCB layout with change (2)
 		
 	Chuong Vo
 		- Compile Bill of Materials and match components to Schmatic/PCB Layout (4)
@@ -228,11 +229,14 @@
 	Team Plan
 		- Finalize the CAD Schematic by adding finishing touches to the traces and ensure the correct components are used
 		- Get Designed Reviewed by two other teams and review the designs of the two teams
-		- Place PCB order at Osh Park
+		- Place PCB order at OSH Park
+        - Place part order from DigiKey/Tayda Electronics
 		- Wait in Anticipation
 
 	Eric Sanman
-	
+        - Add mounting holes to PCB (1)
+        - Optimize board layout to minimize board area (3)
+        - Final footprint check, update (2)
 	Chuong Vo
 		- Provide Design review comments for other groups and get Schematic and PCB design reviewed (2.5)
 		- Verify Final Schematic and PCB design and sign off on completion (2)
@@ -243,11 +247,11 @@
 	
 ##Blocked
 	Team Blocks
-		-
+		- Waiting on parts for testing
 	Eric Sanman
-		-
+		- Nothing blocked
 	Chuong Vo
-		- Nothing Blocked
+		- Nothing blocked
 		
 	Sierra Buckley
 	
