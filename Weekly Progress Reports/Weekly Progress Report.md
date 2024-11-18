@@ -161,8 +161,8 @@
         - Generating priliminary board layout design for whole system (3)
         - Helped debug circuits (2)
 	Chuong Vo
-		- Create and fill out a Gantt Chart for the Project scheadule (3)
-		-
+		- Create and fill out a Gantt Chart for the Project schedule (3)
+		- Create ESP32 circuit and begin Testing Code (2)
 	
 	Sierra Buckley
 	
@@ -182,7 +182,9 @@
             - Update schematic based on testing changes
             - Fix pin header, power jack, and inductor footprints
 	Chuong Vo
-	
+		- Compile Bill of Materials and match components to Schmatic/PCB Layout (3)
+		- Finalize and Test ESP32 Code (3)
+		
 	Sierra Buckley
 	
 	Chris Crider
@@ -194,7 +196,8 @@
 	Eric Sanman
 		- Nothing
 	Chuong Vo
-		-
+		- Nothing Blocked
+		- Finding components that are in stock and ship quickly
 		
 	Sierra Buckley
 	
@@ -210,8 +213,11 @@
 		
 	Eric Sanman
         - Generated ESP32 pin tracking sheet for assisiting programming
-        - 
+        - Tested and Debugged ESp32 Code and circuit (4)
+		
 	Chuong Vo
+		- Compile Bill of Materials and match components to Schmatic/PCB Layout (4)
+		- Finalize and Test ESP32 Code with respective circuit (3)
 	
 	Sierra Buckley
 	
@@ -228,7 +234,8 @@
 	Eric Sanman
 	
 	Chuong Vo
-	
+		- Provide Design review comments for other groups and get Schematic and PCB design reviewed (2.5)
+		- Verify Final Schematic and PCB design and sign off on completion (2)
 	Sierra Buckley
 	
 	Chris Crider
@@ -240,7 +247,7 @@
 	Eric Sanman
 		-
 	Chuong Vo
-		-
+		- Nothing Blocked
 		
 	Sierra Buckley
 	
