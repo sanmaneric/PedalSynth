@@ -1,9 +1,9 @@
 <h1 align="center">
-  :notes: PedalSynth :notes:
+  :notes: SynthBuddy :notes:
 </h1>
 
 <h2 align="center">
-  A combination digital and analog guitar-controlled synthesizer in the form factor of a guitar pedal, with integrated speaker amplifier.
+  A combination digital and analog synthesizer with integrated speaker amplifier.
 </h2>
 
 <div align="center">
