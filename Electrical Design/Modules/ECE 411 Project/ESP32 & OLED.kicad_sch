@@ -17,23 +17,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U6"
+				(at 2.1941 -33.655 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 2.1941 -36.195 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Module:PinHeader_ESP32_WROOM_Narrow"
 				(at 0 0 0)
 				(effects
 					(font
@@ -488,7 +490,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 26.67 0)
 					(length 2.54)
 					(name "SENSOR_VP"
@@ -686,7 +688,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 24.13 0)
 					(length 2.54)
 					(name "SENSOR_VN"
@@ -704,7 +706,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 15.24 -26.67 180)
 					(length 2.54)
 					(name "IO34"
@@ -722,8 +724,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 15.24 -29.21 180)
+				(pin bidirectional line
+					(at 15.24 -24.13 180)
 					(length 2.54)
 					(name "IO35"
 						(effects
@@ -780,24 +782,6 @@
 					(at 15.24 -16.51 180)
 					(length 2.54)
 					(name "IO25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -24.13 180)
-					(length 2.54)
-					(name "IO33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -920,20 +904,8 @@
 		(uuid "16293ae5-ec7b-4305-9398-62d9511f7032")
 	)
 	(no_connect
-		(at 159.385 104.775)
-		(uuid "17341e54-7b00-48df-9da0-9152f72d4a36")
-	)
-	(no_connect
 		(at 128.905 99.695)
 		(uuid "1e59d12d-62e5-4059-98fc-5218ec435730")
-	)
-	(no_connect
-		(at 144.145 56.515)
-		(uuid "1e9fe7d9-81a7-4db4-8220-29976686b16c")
-	)
-	(no_connect
-		(at 159.385 97.155)
-		(uuid "2081510a-d8d1-47d9-853f-75eccad59f78")
 	)
 	(no_connect
 		(at 128.905 97.155)
@@ -944,20 +916,8 @@
 		(uuid "6341367f-bae7-4193-a118-220bba15c238")
 	)
 	(no_connect
-		(at 159.385 120.015)
-		(uuid "66c6f9b2-452f-4a53-bd24-49fa950ad1dc")
-	)
-	(no_connect
-		(at 159.385 117.475)
-		(uuid "6ee5d0a4-230f-4240-b855-c0ad4a819101")
-	)
-	(no_connect
 		(at 128.905 92.075)
 		(uuid "823a13df-3be8-45a9-bbb6-11a8c9a20272")
-	)
-	(no_connect
-		(at 159.385 102.235)
-		(uuid "92a538a5-5def-46bf-b7aa-29445393f06f")
 	)
 	(no_connect
 		(at 159.385 94.615)
@@ -968,24 +928,16 @@
 		(uuid "ac92fb6a-71b1-465e-8d20-7488e8d805b4")
 	)
 	(no_connect
-		(at 159.385 112.395)
-		(uuid "bd856ac7-5813-44e3-975c-1095eed59c8c")
-	)
-	(no_connect
-		(at 159.385 114.935)
-		(uuid "ce0c95e7-1438-4cf2-9aec-a21ca72b7e03")
-	)
-	(no_connect
-		(at 159.385 122.555)
-		(uuid "cec89c72-83a7-4718-9592-c85389e20414")
-	)
-	(no_connect
 		(at 128.905 66.675)
 		(uuid "cf3c20a1-e297-4f63-a7d3-1685248214b9")
 	)
 	(no_connect
 		(at 128.905 104.775)
 		(uuid "d23103a1-8f45-4ec3-b23a-855b997daa55")
+	)
+	(no_connect
+		(at 159.385 97.155)
+		(uuid "dba84bc7-2036-47da-96e6-b636712ddad6")
 	)
 	(no_connect
 		(at 159.385 69.215)
@@ -999,14 +951,6 @@
 		(at 128.905 69.215)
 		(uuid "ed1b0984-f090-4dcc-aba4-fae55a1ded07")
 	)
-	(no_connect
-		(at 159.385 107.315)
-		(uuid "fd86654c-8754-468f-98bd-2a87b4c0ff05")
-	)
-	(no_connect
-		(at 159.385 99.695)
-		(uuid "fe3c5f90-cd7a-480c-985a-48643c984763")
-	)
 	(wire
 		(pts
 			(xy 128.905 61.595) (xy 121.285 61.595)
@@ -1019,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 84.455) (xy 165.735 84.455)
+			(xy 159.385 109.855) (xy 165.735 109.855)
 		)
 		(stroke
 			(width 0)
@@ -1029,43 +973,33 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 109.855) (xy 165.735 109.855)
+			(xy 159.385 117.475) (xy 165.735 117.475)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a0b4b4-df6d-4075-a3ef-1ca3aef36194")
+		(uuid "24180871-2a1c-4078-bd74-cd3329664409")
 	)
 	(wire
 		(pts
-			(xy 159.385 86.995) (xy 165.735 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c72f779-8245-4616-aaa9-e9d5ee3aa6ca")
-	)
-	(wire
-		(pts
-			(xy 159.385 79.375) (xy 165.735 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad18af1-d3c2-4d3f-a91b-6f75c54cbc46")
-	)
-	(wire
-		(pts
-			(xy 159.385 76.835) (xy 165.735 76.835)
+			(xy 159.385 102.235) (xy 165.735 102.235)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6518048d-ccc5-4460-b8f6-8ccef0c1c131")
+	)
+	(wire
+		(pts
+			(xy 144.145 48.26) (xy 144.145 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67950c1e-a467-48aa-94a1-d8c251174e9b")
 	)
 	(wire
 		(pts
@@ -1079,23 +1013,33 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 81.915) (xy 165.735 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8178fc58-b043-4ac4-b1f0-2cb55b52adb9")
-	)
-	(wire
-		(pts
-			(xy 159.385 74.295) (xy 165.735 74.295)
+			(xy 159.385 99.695) (xy 165.735 99.695)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "91d6d61e-8dd2-458e-aec1-b8b41fc606e9")
+	)
+	(wire
+		(pts
+			(xy 159.385 120.015) (xy 165.735 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbed296-f8e3-4b97-ac19-e2cc0b2a6ba4")
+	)
+	(wire
+		(pts
+			(xy 159.385 104.775) (xy 165.735 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02dd396-acae-4636-a01d-fd9f4a512ab9")
 	)
 	(wire
 		(pts
@@ -1119,6 +1063,16 @@
 	)
 	(wire
 		(pts
+			(xy 159.385 107.315) (xy 165.735 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39a0a74-9e3e-460f-9ad0-66e1ff4f20ab")
+	)
+	(wire
+		(pts
 			(xy 147.955 48.26) (xy 147.955 56.515)
 		)
 		(stroke
@@ -1139,13 +1093,23 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 89.535) (xy 165.735 89.535)
+			(xy 159.385 114.935) (xy 165.735 114.935)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edba030c-2361-47ba-b785-44deb4e2e0a0")
+	)
+	(wire
+		(pts
+			(xy 159.385 112.395) (xy 165.735 112.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcab8e33-3945-4462-937c-b1d8166816d0")
 	)
 	(image
 		(at 277.495 173.99)
@@ -1993,9 +1957,9 @@
 			)
 		)
 	)
-	(hierarchical_label "BTN2"
+	(hierarchical_label "GENOUT"
 		(shape input)
-		(at 165.735 79.375 0)
+		(at 165.735 117.475 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2003,11 +1967,23 @@
 			)
 			(justify left)
 		)
-		(uuid "0688c76b-426c-437f-bc35-53240c0b0f9b")
+		(uuid "06484b39-3759-4390-aaf5-a0b759509dd2")
+	)
+	(hierarchical_label "MCU3v3"
+		(shape input)
+		(at 144.145 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "480d9865-0213-4446-a611-710fa35989b5")
 	)
 	(hierarchical_label "BTN0"
 		(shape input)
-		(at 165.735 74.295 0)
+		(at 165.735 99.695 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2017,21 +1993,9 @@
 		)
 		(uuid "6549977f-0c0f-46e2-bb46-710ea762a5e2")
 	)
-	(hierarchical_label "BTN3"
-		(shape input)
-		(at 165.735 81.915 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6908a1f9-6e86-4fa5-8dd2-4a5d52a1703f")
-	)
 	(hierarchical_label "BTN4"
 		(shape input)
-		(at 165.735 84.455 0)
+		(at 165.735 109.855 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2043,7 +2007,7 @@
 	)
 	(hierarchical_label "BTN5"
 		(shape input)
-		(at 165.735 86.995 0)
+		(at 165.735 112.395 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2067,7 +2031,7 @@
 	)
 	(hierarchical_label "BTN1"
 		(shape input)
-		(at 165.735 76.835 0)
+		(at 165.735 102.235 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2077,9 +2041,33 @@
 		)
 		(uuid "d2d8fb4e-7f61-47dd-97ae-0701eeacc9b1")
 	)
+	(hierarchical_label "BTN3"
+		(shape input)
+		(at 165.735 107.315 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4febdfe-edbe-4cae-82e4-59d74b1c1bcb")
+	)
+	(hierarchical_label "FREQ"
+		(shape input)
+		(at 165.735 120.015 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6768732-ffc3-42ab-9e83-39c95476c013")
+	)
 	(hierarchical_label "BTN6"
 		(shape input)
-		(at 165.735 89.535 0)
+		(at 165.735 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2088,6 +2076,18 @@
 			(justify left)
 		)
 		(uuid "db7bd1ef-4d78-4e34-8313-21635d4cf335")
+	)
+	(hierarchical_label "BTN2"
+		(shape input)
+		(at 165.735 104.775 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee717c84-eeff-40c6-92a7-1e56023e369b")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -2100,18 +2100,6 @@
 			(justify left)
 		)
 		(uuid "f23e71df-ee14-4d4b-b6e3-96f70b155b91")
-	)
-	(hierarchical_label "GENOUT"
-		(shape output)
-		(at 165.735 109.855 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb791a69-a1f8-472c-b0dc-c55ab501646b")
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-D2-NHeader")
@@ -2242,9 +2230,6 @@
 		)
 		(pin "9"
 			(uuid "4fd849aa-09f1-44e2-98ed-b705cb3b98f3")
-		)
-		(pin "9"
-			(uuid "9c95aea1-6a51-4053-a011-edbfb78993a8")
 		)
 		(pin "30"
 			(uuid "2942c6a2-d3a8-48ec-8b45-d99e75e6294c")

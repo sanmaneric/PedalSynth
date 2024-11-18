@@ -6260,7 +6260,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84345e63-05ad-478a-9bad-b685bebed193")
 		(property "Reference" "Q2"
 			(at 65.405 33.0199 0)
