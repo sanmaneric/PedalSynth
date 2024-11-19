@@ -24,7 +24,7 @@ PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong
 .
 
 # License
-PedalSynth is licensed under a GNU/GPL v3 license.
+SynthBuddy is licensed under a GNU/GPL v3 license.
 
 # Andrew's Corner :)
 Things Andrew would want to look at:
