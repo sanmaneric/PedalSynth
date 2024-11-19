@@ -7,7 +7,7 @@
 	(title_block
 		(title "SynthBuddy")
 		(date "2024-11-18")
-		(rev "r2.3")
+		(rev "r2.5")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
@@ -3009,12 +3009,6 @@
 		(uuid "5d106717-9a15-408a-8513-99487cdfc70b")
 	)
 	(junction
-		(at 38.735 36.195)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "693a4f37-bf3b-4de9-86ac-cf422252a6cb")
-	)
-	(junction
 		(at 221.615 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3103,12 +3097,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b04df67a-eb7c-4acb-a792-c7e166f1959f")
-	)
-	(junction
-		(at 38.735 34.925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0598d09-75e0-4d5b-9fd8-944031df55b9")
 	)
 	(junction
 		(at 132.715 136.525)
@@ -3478,16 +3466,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 42.545) (xy 38.735 36.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4630a4-9d69-4d95-a5b6-07e6d94c425c")
-	)
-	(wire
-		(pts
 			(xy 76.2 151.765) (xy 76.2 158.75)
 		)
 		(stroke
@@ -3535,6 +3513,16 @@
 			(type default)
 		)
 		(uuid "22f80fad-dad3-48d1-ab73-d416d386b659")
+	)
+	(wire
+		(pts
+			(xy 38.735 34.925) (xy 45.085 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2366c2dc-cf82-46dd-b1e1-1210dec54bb2")
 	)
 	(wire
 		(pts
@@ -3628,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 32.385) (xy 45.085 32.385)
+			(xy 37.465 32.385) (xy 45.085 32.385)
 		)
 		(stroke
 			(width 0)
@@ -3815,16 +3803,6 @@
 			(type default)
 		)
 		(uuid "49b2676a-2117-4e4b-93a0-31246ddd6575")
-	)
-	(wire
-		(pts
-			(xy 38.735 34.925) (xy 45.085 34.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1785ca-6a6a-4414-9d65-3d6c24fccde8")
 	)
 	(wire
 		(pts
@@ -4518,6 +4496,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.735 42.545) (xy 38.735 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bad5bf-9c3e-4cf8-9a0a-696f597cc6e3")
+	)
+	(wire
+		(pts
 			(xy 46.99 137.16) (xy 50.165 137.16)
 		)
 		(stroke
@@ -4848,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 36.195) (xy 38.735 36.195)
+			(xy 33.655 36.195) (xy 37.465 36.195)
 		)
 		(stroke
 			(width 0)
@@ -5238,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.735 36.195) (xy 38.735 34.925)
+			(xy 37.465 32.385) (xy 37.465 36.195)
 		)
 		(stroke
 			(width 0)
@@ -5335,16 +5323,6 @@
 			(type default)
 		)
 		(uuid "f6751a98-d459-4690-8284-f2b1939db8bc")
-	)
-	(wire
-		(pts
-			(xy 38.735 34.925) (xy 38.735 32.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90e4668-f767-445f-86da-74b5722d53b9")
 	)
 	(wire
 		(pts
@@ -7785,7 +7763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 50.165 147.955 0)
 			(effects
 				(font

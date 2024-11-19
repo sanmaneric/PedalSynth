@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 Microcontroller Module")
-		(date "2024-11-14")
-		(rev "1.7")
+		(date "2024-11-18")
+		(rev "1.8")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
@@ -1196,12 +1196,28 @@
 		(uuid "0480c704-126a-4a42-86aa-f22b1480c472")
 	)
 	(no_connect
+		(at 159.385 84.455)
+		(uuid "0e726021-fbce-42c8-beee-97626334a3eb")
+	)
+	(no_connect
 		(at 159.385 61.595)
 		(uuid "16293ae5-ec7b-4305-9398-62d9511f7032")
 	)
 	(no_connect
+		(at 159.385 74.295)
+		(uuid "1998230e-c8ad-4351-ac09-dc79a896cb31")
+	)
+	(no_connect
 		(at 128.905 99.695)
 		(uuid "1e59d12d-62e5-4059-98fc-5218ec435730")
+	)
+	(no_connect
+		(at 159.385 79.375)
+		(uuid "26fb39ec-7af0-4d6d-858f-347191f0e4b1")
+	)
+	(no_connect
+		(at 159.385 76.835)
+		(uuid "4464c3f2-5dcb-4740-8c92-e995f471929c")
 	)
 	(no_connect
 		(at 128.905 97.155)
@@ -1214,6 +1230,18 @@
 	(no_connect
 		(at 128.905 92.075)
 		(uuid "823a13df-3be8-45a9-bbb6-11a8c9a20272")
+	)
+	(no_connect
+		(at 159.385 81.915)
+		(uuid "893efe2d-f16d-462e-9ece-79609adaf45e")
+	)
+	(no_connect
+		(at 159.385 86.995)
+		(uuid "8c3f5ca7-1b2f-4102-bf13-414fae8054f2")
+	)
+	(no_connect
+		(at 159.385 89.535)
+		(uuid "95928f08-b8c5-48b6-b7f2-29c1b002b076")
 	)
 	(no_connect
 		(at 159.385 94.615)
