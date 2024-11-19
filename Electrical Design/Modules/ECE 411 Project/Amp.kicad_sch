@@ -5513,7 +5513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "0.1uF"
 			(at 129.54 114.9349 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor-VLS6045AF_330M:IND_VLS6045AF-330M"
+		(property "Footprint" "Inductor_THT:RL110-330K-RC"
 			(at 193.04 105.41 0)
 			(effects
 				(font
@@ -6505,10 +6505,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "905eaeef-c0d7-4b96-bbfc-32557b22d69b")
 		(property "Reference" "C32"
-			(at 127.635 77.47 0)
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6516,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 127.635 80.01 0)
+			(at 116.84 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm"
 			(at 24.13 24.765 0)
 			(effects
 				(font
@@ -7041,7 +7040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm"
 			(at 202.565 105.41 0)
 			(effects
 				(font
@@ -7268,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor-VLS6045AF_330M:IND_VLS6045AF-330M"
+		(property "Footprint" "Inductor_THT:RL110-330K-RC"
 			(at 193.04 86.36 0)
 			(effects
 				(font
@@ -7652,7 +7651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.0mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm"
 			(at 202.565 86.36 0)
 			(effects
 				(font
