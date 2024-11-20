@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Chorus Effect")
-		(date "2024-11-14")
-		(rev "1.5")
+		(date "2024-11-18")
+		(rev "1.6")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
@@ -229,6 +229,207 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1149,27 +1350,6 @@
 		(color 0 0 0 0)
 		(uuid "ff3d1531-72fb-455e-8340-234d6aeda2f1")
 	)
-	(no_connect
-		(at 230.505 52.07)
-		(uuid "03f209d4-426e-4ba7-877b-c1cd190fdc8f")
-	)
-	(no_connect
-		(at 240.665 44.45)
-		(uuid "8a629fdd-b1c6-4096-b262-a99993b517b7")
-	)
-	(no_connect
-		(at 230.505 54.61)
-		(uuid "bfa08c3a-c639-4cb0-938b-120806e1fdae")
-	)
-	(bus_entry
-		(at 234.95 2.54)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d790e954-3280-4d80-a5f7-1dd9e77a7842")
-	)
 	(wire
 		(pts
 			(xy 168.275 147.32) (xy 177.165 147.32)
@@ -1622,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.235 41.91) (xy 235.585 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dd239d-9365-476e-beb2-0d2a8e8a6aa5")
+	)
+	(wire
+		(pts
 			(xy 158.115 154.94) (xy 158.115 158.75)
 		)
 		(stroke
@@ -1819,6 +2009,16 @@
 			(type default)
 		)
 		(uuid "900f5391-6d53-4869-901d-d81ffb868b20")
+	)
+	(wire
+		(pts
+			(xy 240.665 36.195) (xy 240.665 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9675655b-4061-417b-83a7-56ce2b5d749c")
 	)
 	(wire
 		(pts
@@ -2032,6 +2232,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.505 54.61) (xy 229.235 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfdf916-92da-4229-985f-f5a9b2100f7c")
+	)
+	(wire
+		(pts
 			(xy 175.895 45.72) (xy 178.435 45.72)
 		)
 		(stroke
@@ -2079,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "c568da02-a91b-4404-bf3c-54cd08d1c40e")
+	)
+	(wire
+		(pts
+			(xy 229.235 54.61) (xy 229.235 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c22ac0-6d8c-405d-b017-1138eea8a068")
 	)
 	(wire
 		(pts
@@ -2242,6 +2462,16 @@
 	)
 	(wire
 		(pts
+			(xy 230.505 52.07) (xy 230.505 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35a9d23-48cd-4493-86f5-23ca8bad191e")
+	)
+	(wire
+		(pts
 			(xy 104.775 48.26) (xy 104.775 54.61)
 		)
 		(stroke
@@ -2252,6 +2482,26 @@
 	)
 	(wire
 		(pts
+			(xy 235.585 41.91) (xy 235.585 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d98ec9-943d-469c-83e3-45c7de77c381")
+	)
+	(wire
+		(pts
+			(xy 238.125 43.18) (xy 238.125 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fada1306-5a5d-4901-a5e4-921a989bc9f9")
+	)
+	(wire
+		(pts
 			(xy 52.705 48.26) (xy 52.705 52.07)
 		)
 		(stroke
@@ -2259,6 +2509,16 @@
 			(type default)
 		)
 		(uuid "fbf8879a-c521-4a30-bed0-555d4c7764b3")
+	)
+	(wire
+		(pts
+			(xy 230.505 43.18) (xy 238.125 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc599a3b-8a83-44b7-aa34-43f480038619")
 	)
 	(wire
 		(pts
@@ -3114,6 +3374,17 @@
 			"eBJhGQAAAACAJ/kf1jwQk6XkeWQAAAAASUVORK5CYII="
 		)
 	)
+	(text "Chorus Test Points"
+		(exclude_from_sim no)
+		(at 252.095 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "31f7e0a6-2057-46d6-a02a-a4d9c3f69b27")
+	)
 	(hierarchical_label "CHORUSIN"
 		(shape input)
 		(at 31.115 34.29 180)
@@ -3149,6 +3420,18 @@
 			(justify left)
 		)
 		(uuid "331a4c98-2fd2-4810-b74f-be58e4bf7c94")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 245.745 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bb6a28c-375a-4891-b8bd-9eaf40134101")
 	)
 	(hierarchical_label "Vin"
 		(shape input)
@@ -3209,18 +3492,6 @@
 			(justify right)
 		)
 		(uuid "9e33be39-a63a-4746-9574-5aa4da91e9dd")
-	)
-	(hierarchical_label "CLK"
-		(shape bidirectional)
-		(at 245.745 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d334a39a-e7ed-4e10-a699-fa1735fa36f7")
 	)
 	(hierarchical_label "V.5in"
 		(shape input)
@@ -7106,6 +7377,77 @@
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 238.125 31.115 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9e74d9a-1f55-4f0a-bbb2-b2f7f9941c48")
+		(property "Reference" "CHTPS1"
+			(at 238.125 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 238.125 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 238.125 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.125 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 238.125 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad77fcf3-6d26-4b29-8596-e1ab403d6085")
+		)
+		(pin "3"
+			(uuid "b0ac1c12-ad05-4d06-94d7-b4bcb5bf5852")
+		)
+		(pin "1"
+			(uuid "dc23ad69-1b04-4b3c-b9b5-82698d5edd8b")
+		)
+		(instances
+			(project ""
+				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5/9b94327a-6b02-4c1c-b4e8-ca4e897770fe"
+					(reference "CHTPS1")
 					(unit 1)
 				)
 			)

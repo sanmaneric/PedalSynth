@@ -3105,6 +3105,12 @@
 		(uuid "c1b801f1-e146-45a1-9be3-b1272798a81d")
 	)
 	(junction
+		(at 72.39 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c9ec23-00b8-4ce6-bfa2-732ad1395841")
+	)
+	(junction
 		(at 62.865 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4486,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 78.74) (xy 76.835 78.74)
+			(xy 70.485 78.74) (xy 72.39 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4943,6 +4949,16 @@
 			(type default)
 		)
 		(uuid "d041d091-4a54-484e-90af-4c9d80920c91")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 76.835 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b0ab80-10c7-44d9-8cdd-68bf77f4ffe5")
 	)
 	(wire
 		(pts
@@ -7266,6 +7282,72 @@
 			(project "ECE 411 Project"
 				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ef3d286-a868-4871-8ae6-61f9c54cc3ad")
+		(property "Reference" "GENOUT1"
+			(at 71.755 70.485 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.755 73.025 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.80mm_Drill2.5mm"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a308f5-69ce-49c8-a882-948f3dc57bc2")
+		)
+		(instances
+			(project ""
+				(path "/2625e5a1-d0c8-41ce-941d-75d035a5f1c5"
+					(reference "GENOUT1")
 					(unit 1)
 				)
 			)

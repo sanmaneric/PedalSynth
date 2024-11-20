@@ -237,6 +237,8 @@
         - Add mounting holes to PCB (1)
         - Optimize board layout to minimize board area (3)
         - Final footprint check, update (2)
+        - Worked with Sierra to add test points to the board for debugging of the chorus module (1)
+        - Finishing touches to PCB (2)
 	Chuong Vo
 		- Provide Design review comments for other groups and get Schematic and PCB design reviewed (2.5)
 		- Verify Final Schematic and PCB design and sign off on completion (2)
