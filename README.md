@@ -17,7 +17,7 @@
 # PCB Designs
 We have two KiCad projects in this repo. One for the Class-D Amp Dev Board (ordered week 2), and one for our project design. The naming of the KiCad project of the Dev Board is a misnomer.
  - [Amplifier Dev Board](https://github.com/sanmaneric/PedalSynth/tree/main/Electrical%20Design/PedalSynth)
- - [Project Design](https://github.com/sanmaneric/PedalSynth/tree/main/Electrical%20Design/Modules/ECE%20411%20Project)
+ - [SynthBuddy Board](https://github.com/sanmaneric/PedalSynth/tree/main/Electrical%20Design/Modules/ECE%20411%20Project)
 
 # Authors
 PedalSynth is developed by Eric Sanman, Sierra Buckley, Chris Crider, and Chuong Vo as part of ECE411 at <a href="https://pdx.edu/engineering" style="color: green; text-decoration: underline;text-decoration-style: dotted;">Portland State University</a>
