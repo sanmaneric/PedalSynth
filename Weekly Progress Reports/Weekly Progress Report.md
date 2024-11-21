@@ -143,6 +143,7 @@
 	Chuong Vo
 		-Nothing blocked
 	Sierra Buckley
+		- effects are hard
 	Chris Crider
 	
 	
@@ -163,9 +164,8 @@
 	Chuong Vo
 		- Create and fill out a Gantt Chart for the Project schedule (3)
 		- Create ESP32 circuit and begin Testing Code (2)
-	
 	Sierra Buckley
-	
+		- circuit debugging and testing (8)
 	Chris Crider
 	
 	
@@ -186,6 +186,9 @@
 		- Finalize and Test ESP32 Code (3)
 		
 	Sierra Buckley
+		- functional decomposition (4)
+		- continue debugging and testing (4)
+		- finalize kicad changes (2)
 	
 	Chris Crider
 	
@@ -200,7 +203,8 @@
 		- Finding components that are in stock and ship quickly
 		
 	Sierra Buckley
-	
+		- chorus is difficult to get working
+		- components needed for testing (EPL)
 	Chris Crider
 	
 # PWM Hybrid Synth Weekly Progress Report
@@ -221,7 +225,9 @@
 		- Finalize and Test ESP32 Code with respective circuit (3)
 	
 	Sierra Buckley
-	
+		- functional decomposition complete (4)
+		- tested and debugged code and circuit (4)
+		- design review (2)
 	Chris Crider
 	
 	
@@ -243,7 +249,9 @@
 		- Provide Design review comments for other groups and get Schematic and PCB design reviewed (2.5)
 		- Verify Final Schematic and PCB design and sign off on completion (2)
 	Sierra Buckley
-	
+		- test points with Eric (1)
+		- finalize changes from debugging (2)
+		- helping with week 8 assignments to turn in (2)
 	Chris Crider
 	
 	
@@ -253,8 +261,175 @@
 	Eric Sanman
 		- Nothing blocked
 	Chuong Vo
-		- Nothing blocked
+		- Nothing blocked	
+	Sierra Buckley
+		- none
+	Chris Crider
+
+# PWM Hybrid Synth Weekly Progress Report
+# Report date: 2024-11-21 
+
+## Last Week (time in hours)
+	Team Review
+	 
 		
+	Eric Sanman
+
+		
+	Chuong Vo
+
+	
+	Sierra Buckley
+
+	Chris Crider
+	
+	
+##Next Week
+	Team Plan
+	
+
+	Eric Sanman
+ 
+	Chuong Vo
+
 	Sierra Buckley
 	
+	Chris Crider
+	
+	
+##Blocked
+	Team Blocks
+	
+	Eric Sanman
+	
+	Chuong Vo
+	
+	Sierra Buckley
+
+	Chris Crider
+
+# PWM Hybrid Synth Weekly Progress Report
+# Report date: 2024-11-28
+
+## Last Week (time in hours)
+	Team Review
+	 
+		
+	Eric Sanman
+
+		
+	Chuong Vo
+
+	
+	Sierra Buckley
+
+	Chris Crider
+	
+	
+##Next Week
+	Team Plan
+	
+
+	Eric Sanman
+ 
+	Chuong Vo
+
+	Sierra Buckley
+	
+	Chris Crider
+	
+	
+##Blocked
+	Team Blocks
+	
+	Eric Sanman
+	
+	Chuong Vo
+	
+	Sierra Buckley
+
+	Chris Crider
+
+# PWM Hybrid Synth Weekly Progress Report
+# Report date: 2024-12-05
+
+## Last Week (time in hours)
+	Team Review
+	 
+		
+	Eric Sanman
+
+		
+	Chuong Vo
+
+	
+	Sierra Buckley
+
+	Chris Crider
+	
+	
+##Next Week
+	Team Plan
+	
+
+	Eric Sanman
+ 
+	Chuong Vo
+
+	Sierra Buckley
+	
+	Chris Crider
+	
+	
+##Blocked
+	Team Blocks
+	
+	Eric Sanman
+	
+	Chuong Vo
+	
+	Sierra Buckley
+
+	Chris Crider
+
+# PWM Hybrid Synth Weekly Progress Report
+# Report date: 2024-12-12
+
+## Last Week (time in hours)
+	Team Review
+	 - last progress report!
+		
+	Eric Sanman
+
+		
+	Chuong Vo
+
+	
+	Sierra Buckley
+
+	Chris Crider
+	
+	
+##Next Week
+	Team Plan
+	
+
+	Eric Sanman
+ 
+	Chuong Vo
+
+	Sierra Buckley
+	
+	Chris Crider
+	
+	
+##Blocked
+	Team Blocks
+	
+	Eric Sanman
+	
+	Chuong Vo
+	
+	Sierra Buckley
+
 	Chris Crider
