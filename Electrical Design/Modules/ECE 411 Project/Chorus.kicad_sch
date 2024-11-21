@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Chorus Effect")
-		(date "2024-11-18")
-		(rev "1.6")
+		(date "2024-11-21")
+		(rev "1.7")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
