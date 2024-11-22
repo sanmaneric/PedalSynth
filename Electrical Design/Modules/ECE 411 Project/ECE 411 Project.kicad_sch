@@ -7355,25 +7355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 42.545 0)
 			(effects
 				(font
@@ -7587,25 +7569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 125.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 125.73 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 125.73 142.24 0)
 			(effects
 				(font
@@ -8020,25 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 239.395 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 239.395 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 239.395 95.25 0)
 			(effects
 				(font
@@ -8117,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL21B104KCFNNNE"
+		(property "On_Hand_(On_Way)" "(100)"
 			(at 76.2 147.955 0)
 			(effects
 				(font
@@ -8126,7 +8072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "CL21B104KCFNNNE"
 			(at 76.2 147.955 0)
 			(effects
 				(font
@@ -8135,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(100)"
+		(property "Part_Origin" "DK"
 			(at 76.2 147.955 0)
 			(effects
 				(font
@@ -8214,25 +8160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 50.165 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 50.165 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 50.165 147.955 0)
 			(effects
 				(font
@@ -8377,25 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 29.845 0)
 			(effects
 				(font
@@ -8489,25 +8399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 43.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 43.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 43.18 137.16 0)
 			(effects
 				(font
@@ -8715,7 +8607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL21B104KBCNNNC"
+		(property "On_Hand_(On_Way)" "(100)"
 			(at 32.385 130.81 0)
 			(effects
 				(font
@@ -8724,7 +8616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "CL21B104KBCNNNC"
 			(at 32.385 130.81 0)
 			(effects
 				(font
@@ -8733,7 +8625,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(100)"
+		(property "Part_Origin" "DK"
 			(at 32.385 130.81 0)
 			(effects
 				(font
@@ -8809,25 +8701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 67.945 0)
 			(effects
 				(font
@@ -9037,25 +8911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 210.185 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 210.185 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 210.185 79.375 0)
 			(effects
 				(font
@@ -9134,25 +8990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 48.895 0)
 			(effects
 				(font
@@ -9363,25 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 194.31 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "AMZ"
-			(at 194.31 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "AMZ"
 			(at 194.31 93.345 0)
 			(effects
 				(font
@@ -9460,25 +9280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 154.305 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "AMZ"
-			(at 154.305 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "AMZ"
 			(at 154.305 93.345 0)
 			(effects
 				(font
@@ -9560,7 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL31B106KAHNFNE"
+		(property "On_Hand_(On_Way)" "(100"
 			(at 46.99 125.095 0)
 			(effects
 				(font
@@ -9569,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "CL31B106KAHNFNE"
 			(at 46.99 125.095 0)
 			(effects
 				(font
@@ -9578,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(100"
+		(property "Part_Origin" "DK"
 			(at 46.99 125.095 0)
 			(effects
 				(font
@@ -9851,33 +9653,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" ""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e65680ad-3937-422f-ad48-8220649f15b0")
 		)
@@ -9948,25 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 102.235 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "SBP"
-			(at 102.235 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "SBP"
 			(at 102.235 158.75 0)
 			(effects
 				(font
@@ -10052,33 +9809,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 102.235 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 102.235 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" ""
-			(at 102.235 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
 			(at 102.235 142.875 0)
 			(effects
 				(font
@@ -10289,25 +10019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 32.385 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "AMZ"
-			(at 32.385 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "AMZ"
 			(at 32.385 19.05 0)
 			(effects
 				(font
@@ -10389,7 +10101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UVR2C100MPD "
+		(property "On_Hand_(On_Way)" "(15)"
 			(at 94.615 175.895 0)
 			(effects
 				(font
@@ -10398,7 +10110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "UVR2C100MPD "
 			(at 94.615 175.895 0)
 			(effects
 				(font
@@ -10407,7 +10119,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(15)"
+		(property "Part_Origin" "DK"
 			(at 94.615 175.895 0)
 			(effects
 				(font
@@ -10618,7 +10330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UVK2A470MPD"
+		(property "On_Hand_(On_Way)" "(15)"
 			(at 62.865 147.955 0)
 			(effects
 				(font
@@ -10627,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "UVK2A470MPD"
 			(at 62.865 147.955 0)
 			(effects
 				(font
@@ -10636,7 +10348,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(15)"
+		(property "Part_Origin" "DK"
 			(at 62.865 147.955 0)
 			(effects
 				(font
@@ -10778,25 +10490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 36.195 0)
 			(effects
 				(font
@@ -11074,25 +10768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 113.03 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "AMZ"
-			(at 113.03 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "AMZ"
 			(at 113.03 93.345 0)
 			(effects
 				(font
@@ -11238,25 +10914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 59.69 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "SBP"
-			(at 59.69 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "SBP"
 			(at 59.69 122.555 0)
 			(effects
 				(font
@@ -11335,25 +10993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 61.595 0)
 			(effects
 				(font
@@ -11563,25 +11203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 227.33 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 227.33 95.25 0)
 			(effects
 				(font
@@ -11657,25 +11279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 32.385 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 32.385 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 32.385 122.555 0)
 			(effects
 				(font
@@ -11990,33 +11594,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 272.415 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" ""
-			(at 272.415 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
-			(at 272.415 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2_2"
 			(uuid "e8ff1291-5f93-44ce-9e86-a11a7ec3385b")
 		)
@@ -12225,25 +11802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 28.575 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "TAYDA"
-			(at 28.575 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "TAYDA"
 			(at 28.575 55.245 0)
 			(effects
 				(font
@@ -12453,33 +12012,6 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 93.98 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" ""
-			(at 93.98 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
-			(at 93.98 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "87a06fd3-5152-4e79-8531-26932eef1eca")
 		)
@@ -12556,25 +12088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 125.73 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 125.73 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 125.73 129.54 0)
 			(effects
 				(font
@@ -12785,7 +12299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL31B106KAHNFNE"
+		(property "On_Hand_(On_Way)" "(100"
 			(at 71.755 125.095 0)
 			(effects
 				(font
@@ -12794,7 +12308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "CL31B106KAHNFNE"
 			(at 71.755 125.095 0)
 			(effects
 				(font
@@ -12803,7 +12317,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(100"
+		(property "Part_Origin" "DK"
 			(at 71.755 125.095 0)
 			(effects
 				(font
@@ -13278,7 +12792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "UVR2C100MPD"
+		(property "On_Hand_(On_Way)" "(50)"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -13287,7 +12801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "UVR2C100MPD"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -13296,7 +12810,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(50)"
+		(property "Part_Origin" "DK"
 			(at 125.73 177.8 0)
 			(effects
 				(font

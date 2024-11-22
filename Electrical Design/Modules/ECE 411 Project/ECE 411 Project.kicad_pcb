@@ -19761,7 +19761,7 @@
 		(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
 		(tags "3.5mm audio cui horizontal jack stereo")
 		(property "Reference" "J4"
-			(at 0 -9.9 90)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "b26d770e-675d-408b-9292-4b7b8134f1de")
 			(effects

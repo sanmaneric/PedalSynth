@@ -2609,25 +2609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 135.255 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 135.255 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 135.255 116.205 0)
 			(effects
 				(font
@@ -2788,7 +2770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL31B475KAHNNNE"
+		(property "On_Hand_(On_Way)" "(100)"
 			(at 112.395 103.505 0)
 			(effects
 				(font
@@ -2797,7 +2779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Origin" "DK"
+		(property "Part_Number" "CL31B475KAHNNNE"
 			(at 112.395 103.505 0)
 			(effects
 				(font
@@ -2806,7 +2788,7 @@
 				(hide yes)
 			)
 		)
-		(property "On Hand (On Way)" "(100)"
+		(property "Part_Origin" "DK"
 			(at 112.395 103.505 0)
 			(effects
 				(font
@@ -2885,25 +2867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 140.335 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 140.335 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 140.335 94.615 0)
 			(effects
 				(font
@@ -3112,25 +3076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 149.86 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 149.86 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 149.86 89.535 0)
 			(effects
 				(font
@@ -3210,25 +3156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 166.37 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 166.37 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 166.37 111.125 0)
 			(effects
 				(font
@@ -3307,25 +3235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "DK"
-			(at 158.75 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "DK"
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -3405,25 +3315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
-			(at 180.34 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Origin" "SBP"
-			(at 180.34 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "On Hand (On Way)" ""
+		(property "Part_Origin" "SBP"
 			(at 180.34 113.665 0)
 			(effects
 				(font
