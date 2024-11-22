@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 Microcontroller Module")
-		(date "2024-11-21")
-		(rev "1.9")
+		(date "2024-11-22")
+		(rev "1.91")
 		(company "Portland State University")
 		(comment 1 "Open Source Hardware")
 		(comment 2 "Design: Eric Sanman, Sierra Buckley, Chuong Vo, Chris Crider")
@@ -308,7 +308,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U6"
-				(at 2.1941 -33.655 0)
+				(at -41.91 40.005 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -366,6 +366,14 @@
 				)
 			)
 			(symbol "ESP32-WROOM-D2-NHeader_1_1"
+				(text "ESP32-S3-WROOM\nDev Board"
+					(at 0.508 12.446 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 36.83 270)
 					(length 2.54)
@@ -2571,10 +2579,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1cd97a1a-c1a7-45dc-ad4c-8e2935e6ade6")
 		(property "Reference" "U6"
-			(at 146.3391 127 0)
+			(at 153.67 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
