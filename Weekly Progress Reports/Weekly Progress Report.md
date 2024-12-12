@@ -227,7 +227,6 @@
 	Sierra Buckley
 		- functional decomposition complete (4)
 		- tested and debugged code and circuit (4)
-		- design review (2)
 	Chris Crider
 	
 	
@@ -280,6 +279,8 @@
 
 	
 	Sierra Buckley
+		- design review with 2 teams (2)
+		- PCB finalization with team (2)
 
 	Chris Crider
 	
@@ -293,6 +294,7 @@
 	Chuong Vo
 
 	Sierra Buckley
+		- thanksgiving week, sign up for demo time (1)
 	
 	Chris Crider
 	
@@ -305,6 +307,7 @@
 	Chuong Vo
 	
 	Sierra Buckley
+		- none
 
 	Chris Crider
 
@@ -322,6 +325,7 @@
 
 	
 	Sierra Buckley
+		- thanksgiving week!
 
 	Chris Crider
 	
@@ -335,6 +339,7 @@
 	Chuong Vo
 
 	Sierra Buckley
+		- test plan working with team (3)
 	
 	Chris Crider
 	
@@ -347,6 +352,7 @@
 	Chuong Vo
 	
 	Sierra Buckley
+		- none
 
 	Chris Crider
 
@@ -364,6 +370,7 @@
 
 	
 	Sierra Buckley
+		- test plan working with team (3)
 
 	Chris Crider
 	
@@ -377,6 +384,11 @@
 	Chuong Vo
 
 	Sierra Buckley
+		- testing with everything (8)
+		- build case (4)
+		- debug (4)
+		- complete presentation slides (8)
+		- catme survey (1)
 	
 	Chris Crider
 	
@@ -389,6 +401,7 @@
 	Chuong Vo
 	
 	Sierra Buckley
+		- none
 
 	Chris Crider
 
@@ -406,6 +419,11 @@
 
 	
 	Sierra Buckley
+		- testing with everything (8)
+		- build case (4)
+		- debug (4)
+		- complete presentation slides (8)
+		- catme survey (1)
 
 	Chris Crider
 	
@@ -419,6 +437,8 @@
 	Chuong Vo
 
 	Sierra Buckley
+		- practice presentation for Friday
+		- end of term
 	
 	Chris Crider
 	
@@ -431,5 +451,6 @@
 	Chuong Vo
 	
 	Sierra Buckley
+		- none
 
 	Chris Crider
