@@ -12,8 +12,8 @@
 		- watching kicad videos and becoming familiar with it (2)
 		- researching effects pedals for our design (2)
 	Chris Crider
-		-Began researching ideas for projects including effects for possible synth project
-		-learning kicad and git for use on the project
+		-Began researching ideas for projects including effects for possible synth project (2)
+		-learning kicad and git for use on the project (1)
 	
 ##Next Week
 	Team Plan
@@ -28,8 +28,8 @@
 	Sierra Buckley
 		- choose filters to design, model in LTspice (4)
 	Chris Crider
-		-Familiarized myself with the sites were using
-		-began modeling effects circuits
+		-Familiarized myself with the sites were using (.5)
+		-began modeling effects circuits (2)
 	
 ##Blocked
 	Eric Sanman
@@ -62,9 +62,9 @@
 		- git tutorial from Eric :) (1)
 		- also sick (?)
 	Chris Crider
-		-Began designing schematics that would be put into final schematic
-		-researching libraries for esp32 to create pwm output
- 		-worked on PDS
+		-Began designing schematics that would be put into final schematic (4)
+		-researching libraries for esp32 to create pwm output (.5)
+ 		-worked on PDS (1)
 	
 ##Next Week
 	Team Plan
@@ -83,9 +83,9 @@
 		- Redo work on PDS, block diagrams (2)
 		- get healthy (?)
 	Chris Crider
-		-Helped edit PDS
-		-began building prototype for tremolo and fuzz effects
-		-reviewing kicad to send over finalized effect schematics
+		-Helped edit PDS (1)
+		-began building prototype for tremolo and fuzz effects (3)
+		-reviewing kicad to send over finalized effect schematics (2)
 	
 ##Blocked
 	Eric Sanman
@@ -123,7 +123,9 @@
 		- kicad adjustments (2)
 		- team effort on BOM (2)
 	Chris Crider
-		- 
+		- continued breadboard work on effects (3)
+		- BOM (2)
+		- Overall build rework (order of effects was off) (2)
 	
 ##Next Week
 	Team Plan
@@ -145,8 +147,8 @@
 		- team effort on BOM (2)
 		- continue breadboarding effects (2)
 	Chris Crider
-		-continued testing effects and refining schematics
-		-began to take stock of parts needed
+		-continued testing effects and refining schematics (2)
+		- continued to take stock of parts needed (1)
 	
 ##Blocked
 	Team Blocks
@@ -181,8 +183,8 @@
 	Sierra Buckley
 		- circuit debugging and testing (8)
 	Chris Crider
-		-Helped with gannt chart layout
-		-matching kicad schematics to hand drawn and LTspice schematics
+		-Helped with gannt chart layout (2)
+		-matching kicad schematics to hand drawn and LTspice schematics locating errors and moving things where needed (3)
 	
 	
 ##Next Week
@@ -207,8 +209,8 @@
 		- finalize kicad changes (2)
 	
 	Chris Crider
-		- began searching for needed parts for each effect
-		- refined button layout for final prototype to streamline usage
+		- began searching for needed parts for each effect, some are very specific to each tone (1)
+		- refined button layout for final prototype to streamline usage (2)
 	
 ##Blocked
 	Team Blocks
@@ -222,7 +224,7 @@
 		- chorus is difficult to get working
 		- components needed for testing (EPL)
 	Chris Crider
-		-helped debug chorus circuit
+		-helped debug chorus circuit (4)
 	
 # PWM Hybrid Synth Weekly Progress Report
 #Report date: 2024-11-14 
@@ -245,8 +247,9 @@
 		- functional decomposition complete (4)
 		- tested and debugged code and circuit (4)
 	Chris Crider
-		- helped with functional decomp
-		- helped with bill of materials, comparing to schematic to identify missing or mislabeled parts
+		- helped with functional decomp (1)
+		- Debugging code for PWM (1)
+		- Testing functionality (3)
 	
 ##Next Week
 	Team Plan
@@ -270,9 +273,9 @@
 		- finalize changes from debugging (2)
 		- helping with week 8 assignments to turn in (2)
 	Chris Crider
-		- Design review for other groups
-		- continued debugging chorus
-		- opted for test points on final project because the debugging was complicated
+		- Design review for other groups (2)
+		- continued debugging chorus (3)
+		- opted for test points on final project because the debugging was complicated (1)
 	
 	
 ##Blocked
@@ -307,8 +310,8 @@
 		- PCB finalization with team (2)
 
 	Chris Crider
-		-worked through final amount of debugging and rearranging parts for effects 
-		- began testing OLED and PWM functions
+		-worked through final amount of debugging and rearranging parts for effects (2)
+		- began testing OLED and PWM functions in unison with effects (2)
 	
 	
 ##Next Week
@@ -378,9 +381,9 @@
 		- test plan working with team (3)
 	
 	Chris Crider
-		- Began soldering components such as potentiometers to attach to board
-		- began researching best method of housing
-		- overseeing IC placement on board
+		- Began soldering components such as potentiometers to attach to board (3)
+		- began researching best method of housing (1)
+		- overseeing IC placement on board (3)
 	
 	
 ##Blocked
@@ -417,9 +420,9 @@
 		- test plan working with team (3)
 
 	Chris Crider
-		-Began presentation editing
-		-Testing working prototype in capstone lab (lots of noise)
-		-finalized ideas for button and pot layout
+		-Began presentation editing (2) 
+		-Testing working prototype in capstone lab (lots of noise) (3)
+		-finalized ideas for button and pot layout (1)
 	
 	
 ##Next Week
@@ -445,6 +448,10 @@
 		- catme survey (1)
 	
 	Chris Crider
+		- Final testing of unified design (3)
+		- Survey (2)
+		- Presentation (3)
+		- Final build (2) 
 	
 	
 ##Blocked
@@ -489,7 +496,9 @@
 		- catme survey (1)
 
 	Chris Crider
-	
+		- More final assembly (1)
+		- Soldering and testing (2)
+		- Paperwork (1)
 	
 ##Next Week
 	Team Plan
