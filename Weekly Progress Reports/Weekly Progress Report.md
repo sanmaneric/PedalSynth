@@ -12,6 +12,8 @@
 		- watching kicad videos and becoming familiar with it (2)
 		- researching effects pedals for our design (2)
 	Chris Crider
+		-Began researching ideas for projects including effects for possible synth project
+		-learning kicad and git for use on the project
 	
 ##Next Week
 	Team Plan
@@ -26,6 +28,8 @@
 	Sierra Buckley
 		- choose filters to design, model in LTspice (4)
 	Chris Crider
+		-Familiarized myself with the sites were using
+		-began modeling effects circuits
 	
 ##Blocked
 	Eric Sanman
@@ -58,6 +62,9 @@
 		- git tutorial from Eric :) (1)
 		- also sick (?)
 	Chris Crider
+		-Began designing schematics that would be put into final schematic
+		-researching libraries for esp32 to create pwm output
+ 		-worked on PDS
 	
 ##Next Week
 	Team Plan
@@ -76,6 +83,9 @@
 		- Redo work on PDS, block diagrams (2)
 		- get healthy (?)
 	Chris Crider
+		-Helped edit PDS
+		-began building prototype for tremolo and fuzz effects
+		-reviewing kicad to send over finalized effect schematics
 	
 ##Blocked
 	Eric Sanman
@@ -113,6 +123,7 @@
 		- kicad adjustments (2)
 		- team effort on BOM (2)
 	Chris Crider
+		- 
 	
 ##Next Week
 	Team Plan
@@ -134,6 +145,8 @@
 		- team effort on BOM (2)
 		- continue breadboarding effects (2)
 	Chris Crider
+		-continued testing effects and refining schematics
+		-began to take stock of parts needed
 	
 ##Blocked
 	Team Blocks
@@ -145,6 +158,7 @@
 	Sierra Buckley
 		- effects are hard
 	Chris Crider
+		-nothing
 	
 	
 # PWM Hybrid Synth Weekly Progress Report
@@ -167,6 +181,8 @@
 	Sierra Buckley
 		- circuit debugging and testing (8)
 	Chris Crider
+		-Helped with gannt chart layout
+		-matching kicad schematics to hand drawn and LTspice schematics
 	
 	
 ##Next Week
@@ -191,7 +207,8 @@
 		- finalize kicad changes (2)
 	
 	Chris Crider
-	
+		- began searching for needed parts for each effect
+		- refined button layout for final prototype to streamline usage
 	
 ##Blocked
 	Team Blocks
@@ -206,6 +223,7 @@
 		- chorus is difficult to get working
 		- components needed for testing (EPL)
 	Chris Crider
+		-helped debug chorus circuit
 	
 # PWM Hybrid Synth Weekly Progress Report
 #Report date: 2024-11-14 
@@ -228,7 +246,8 @@
 		- functional decomposition complete (4)
 		- tested and debugged code and circuit (4)
 	Chris Crider
-	
+		- helped with functional decomp
+		- helped with bill of materials, comparing to schematic to identify missing or mislabeled parts
 	
 ##Next Week
 	Team Plan
@@ -252,6 +271,9 @@
 		- finalize changes from debugging (2)
 		- helping with week 8 assignments to turn in (2)
 	Chris Crider
+		- Design review for other groups
+		- continued debugging chorus
+		- opted for test points on final project because the debugging was complicated
 	
 	
 ##Blocked
@@ -283,6 +305,8 @@
 		- PCB finalization with team (2)
 
 	Chris Crider
+		-worked through final amount of debugging and rearranging parts for effects
+		- began testing OLED and PWM functions
 	
 	
 ##Next Week
@@ -297,7 +321,7 @@
 		- thanksgiving week, sign up for demo time (1)
 	
 	Chris Crider
-	
+	-Thanksgiving no meetings
 	
 ##Blocked
 	Team Blocks
@@ -328,6 +352,7 @@
 		- thanksgiving week!
 
 	Chris Crider
+		-Thanksgiving, didn't meet
 	
 	
 ##Next Week
@@ -342,6 +367,9 @@
 		- test plan working with team (3)
 	
 	Chris Crider
+		- Began soldering components such as potentiometers to attach to board
+		- began researching best method of housing
+		- overseeing IC placement on board
 	
 	
 ##Blocked
@@ -373,6 +401,9 @@
 		- test plan working with team (3)
 
 	Chris Crider
+		-Began presentation editing
+		-Testing working prototype in capstone lab (lots of noise)
+		-finalized ideas for button and pot layout
 	
 	
 ##Next Week
