@@ -139,7 +139,7 @@
 	Chuong Vo
 		-Finish modeling the Effect schematics for the synthesizer and connect them all together before sending them over to Eric for quality assurance(2)
 		-Continue to write Arduino code (1)
-		-Create and fill out a Gantt Chart for the Project scheadule (2)
+		-Create and fill out a Gantt Chart for the Project schedule (3)
 	Sierra Buckley
 		- continue kicad adjustments with new additions with team (2)
 		- team effort on BOM (2)
@@ -216,7 +216,6 @@
 	Eric Sanman
 		- Finaliztion of PCB depends on sucessful test of chorus module
 	Chuong Vo
-		- Nothing Blocked
 		- Finding components that are in stock and ship quickly
 		
 	Sierra Buckley
@@ -292,31 +291,36 @@
 
 ## Last Week (time in hours)
 	Team Review
-	 
+		-Finalized CAD Schematic and PCB Layout
+		-Design Reviewed and got reviewed by Team 9 and Team 12
+		-Sent Finzlized PCB over to OSH Park to be fabricated.
 		
 	Eric Sanman
 
 		
 	Chuong Vo
-
+		- Design Reviewed Teams 9 and 12 (3)
+		- Quality check and Finalized PCB (2)
 	
 	Sierra Buckley
-		- design review with 2 teams (2)
+		- design review with 2 teams (3)
 		- PCB finalization with team (2)
 
 	Chris Crider
-		-worked through final amount of debugging and rearranging parts for effects
+		-worked through final amount of debugging and rearranging parts for effects 
 		- began testing OLED and PWM functions
 	
 	
 ##Next Week
 	Team Plan
-	
+		-Coordinate and pick a time to do presentation
+		-Begin to plan what to do/say in presentation.
 
 	Eric Sanman
  
 	Chuong Vo
-
+		-Sign up for Demo time (1)
+		-Wait in anticipation for PCB and parts to arrive 
 	Sierra Buckley
 		- thanksgiving week, sign up for demo time (1)
 	
@@ -325,11 +329,12 @@
 	
 ##Blocked
 	Team Blocks
-	
+		-Finding time that works for all times to coordinate design reviews.
 	Eric Sanman
 	
 	Chuong Vo
-	
+		-Nothing blocked
+		
 	Sierra Buckley
 		- none
 
@@ -340,13 +345,15 @@
 
 ## Last Week (time in hours)
 	Team Review
+		-Received PCB back from OSH Park and began to mess around with it
+		-No real Progress or meetings due to thanksgiving
 	 
 		
 	Eric Sanman
 
 		
 	Chuong Vo
-
+		-Thanksgiving break, the team did not meet
 	
 	Sierra Buckley
 		- thanksgiving week!
@@ -357,11 +364,15 @@
 	
 ##Next Week
 	Team Plan
-	
+		-Begin to discuss and build PCB housing
+		-Continue to assemble/Solder PCB
+		-Begin Testing PCB to ensure that each component and module works as intended.
 
 	Eric Sanman
  
 	Chuong Vo
+		-Create Test Plan for finalized project (3)
+		-Began to solder surface mounted components onto PCB. (2)
 
 	Sierra Buckley
 		- test plan working with team (3)
@@ -374,10 +385,11 @@
 	
 ##Blocked
 	Team Blocks
-	
+		-Waiting on Components and PCB to arrive. 
 	Eric Sanman
 	
 	Chuong Vo
+		-Nothing Blocked
 	
 	Sierra Buckley
 		- none
@@ -389,13 +401,17 @@
 
 ## Last Week (time in hours)
 	Team Review
-	 
+		-Completed Test plan for when the board is fully assembled
+		-Finalized the soldering of all the surface mounted components
+		-Began doing quality checks and testing of surface mounted components
 		
 	Eric Sanman
 
 		
 	Chuong Vo
-
+		-Creating a test plan that ensures the modules are properly tested for their intended effects (3)
+		-Soldering components onto PCB (2)
+		-Began to Test PCB by sending a function generated signal through and reading outputs using (2)
 	
 	Sierra Buckley
 		- test plan working with team (3)
@@ -408,12 +424,19 @@
 	
 ##Next Week
 	Team Plan
-	
+		-Complete the Assembly of the PCB
+		-Complete all testing for the PCB
+		-Create Case for PCB
+		-Create Presentation Slideshow
 
 	Eric Sanman
  
 	Chuong Vo
-
+		-Finalize the assembly of the PCB (3)
+		-Thouroughly Test every module of the project and debug where necessary (6)
+		-Complete the Presentation Slides (4)
+		-Complete Catme Survey (1) 
+		
 	Sierra Buckley
 		- testing with everything (8)
 		- build case (4)
@@ -430,6 +453,7 @@
 	Eric Sanman
 	
 	Chuong Vo
+		-Nothing Blocked
 	
 	Sierra Buckley
 		- none
@@ -442,12 +466,20 @@
 ## Last Week (time in hours)
 	Team Review
 	 - last progress report!
+		-Completed the Assembly of the PCB
+		-Completed all testing for the PCB
+		-Created Case for PCB
+		-Created and in the process of finalizing the Presentation Slideshow
 		
 	Eric Sanman
 
 		
 	Chuong Vo
-
+		-Began to Test PCB by sending a function generated signal through and reading outputs using Oscilloscope (2)
+		-Finalize PCB assembly (4)
+		-Thouroughly Test every module of the project and debug where necessary (6)
+		-Complete the Presentation Slides (4)
+		-Complete Catme Survey (1)
 	
 	Sierra Buckley
 		- testing with everything (8)
@@ -461,7 +493,8 @@
 	
 ##Next Week
 	Team Plan
-	
+		-Practice for Demo Presentation
+		-Demo Presentation
 
 	Eric Sanman
  
@@ -480,7 +513,7 @@
 	Eric Sanman
 	
 	Chuong Vo
-	
+		-Nothing Blocked
 	Sierra Buckley
 		- none
 
