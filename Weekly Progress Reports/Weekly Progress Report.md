@@ -28,8 +28,8 @@
 	Sierra Buckley
 		- choose filters to design, model in LTspice (4)
 	Chris Crider
-		-Familiarized myself with the sites were using (.5)
-		-began modeling effects circuits (2)
+		- Familiarized myself with the sites were using (.5)
+		- began modeling effects circuits (2)
 	
 ##Blocked
 	Eric Sanman
@@ -62,9 +62,9 @@
 		- git tutorial from Eric :) (1)
 		- also sick (?)
 	Chris Crider
-		-Began designing schematics that would be put into final schematic (4)
-		-researching libraries for esp32 to create pwm output (.5)
- 		-worked on PDS (1)
+		- Began designing schematics that would be put into final schematic (4)
+		- researching libraries for esp32 to create pwm output (.5)
+ 		- worked on PDS (1)
 	
 ##Next Week
 	Team Plan
@@ -76,52 +76,56 @@
         - Begin built & test of Class-D amplifier (4)
         - Work with the team on integrating other modules in KiCad (2)
 	Chuong Vo
-		-Finalize research of Arduino libaries for PWM/Signal Generation (2)
-		-Begin to watch tutorials to understand KiCad usage (2)
-		-Begin making a basic schematic for the ESP32 (1)
+		- Finalize research of Arduino libaries for PWM/Signal Generation (2)
+		- Begin to watch tutorials to understand KiCad usage (2)
+		- Begin making a basic schematic for the ESP32 (1)
 	Sierra Buckley
 		- Redo work on PDS, block diagrams (2)
 		- get healthy (?)
 	Chris Crider
-		-Helped edit PDS (1)
-		-began building prototype for tremolo and fuzz effects (3)
-		-reviewing kicad to send over finalized effect schematics (2)
+		- Helped edit PDS (1)
+		- began building prototype for tremolo and fuzz effects (3)
+		- reviewing kicad to send over finalized effect schematics (2)
 	
 ##Blocked
 	Eric Sanman
 		- Wait for amplifier board to arrive
         - Wait for parts to arrive
 	Chuong Vo
-		-Nothing blocked
+		- Nothing blocked
 	Sierra Buckley
 		- none
 	Chris Crider
-	
+		- none
 	
 # PWM Hybrid Synth Weekly Progress Report
 #Report date: 2024-10-31
 
 ## Last Week (time in hours)
 	Team Review
-		-The product design Specification was completed and added to both Canvas and Git
-		-Work Began on a Design Matrix and AHP Methodologies to officially pick a project
-		-Design work began on Kikad for the priliminary schematic of the synthesizer.
-		-Began Testing individual circuit modules to ensure design works
+		- The product design Specification was completed and added to both Canvas and Git
+		- Work Began on a Design Matrix and AHP Methodologies to officially pick a project
+		- Design work began on Kikad for the priliminary schematic of the synthesizer.
+		- Began Testing individual circuit modules to ensure design works
+		
 	Eric Sanman
 		- Received boards from OSH Park (0)
         - Received parts from DigiKey (0)
         - Try to build one amplifier (4)
         - Amplifier works great, but the input rolls-off low freq. too qucikly. Making adjustments to component values on board (1)
         - Update KiCad design based off of flaws (DC input, inductors wrong footprints), update schematic values (1)
+		
 	Chuong Vo
-		-Finished watching Kikad tutorial Video (2)
-		-Began to model seperate schematics on Kikad based on the chosen effects that the synthesizer can perform (1.5)
-		-Began to write Arduino code for the PWM function (1)
+		- Finished watching Kikad tutorial Video (2)
+		- Began to model seperate schematics on Kikad based on the chosen effects that the synthesizer can perform (1.5)
+		- Began to write Arduino code for the PWM function (1)
+		
 	Sierra Buckley
 		- redid PDS and block diagrams (2)
 		- started breadboarding effects (2)
 		- kicad adjustments (2)
 		- team effort on BOM (2)
+		
 	Chris Crider
 		- continued breadboard work on effects (3)
 		- BOM (2)
@@ -129,38 +133,46 @@
 	
 ##Next Week
 	Team Plan
-		-Finalize the Preliminary Schematic and have all team members check off schematic
-		-Finalize Testing of individual modules and begin to combine into a singular circuit for testing
-		-Begin to clean up Preliminary schematic and transition it into a Final Schematic
-		-Begin creating a PCB layout based off of schematic
+		- Finalize the Preliminary Schematic and have all team members check off schematic
+		- Finalize Testing of individual modules and begin to combine into a singular circuit for testing
+		- Begin to clean up Preliminary schematic and transition it into a Final Schematic
+		- Begin creating a PCB layout based off of schematic
+		
 	Eric Sanman
 		- Work with other team members on integrating parts into the schematic (2)
         - Clean up and add descriptions to modules in KiCad (.5)
         - Check titleblocks (.25)
         - Find footprints for all parts (3)
+		
 	Chuong Vo
-		-Finish modeling the Effect schematics for the synthesizer and connect them all together before sending them over to Eric for quality assurance(2)
-		-Continue to write Arduino code (1)
-		-Create and fill out a Gantt Chart for the Project schedule (3)
+		- Finish modeling the Effect schematics for the synthesizer and connect them all together before sending them over to Eric for quality assurance(2)
+		- Continue to write Arduino code (1)
+		- Create and fill out a Gantt Chart for the Project schedule (3)
+		
 	Sierra Buckley
 		- continue kicad adjustments with new additions with team (2)
 		- team effort on BOM (2)
 		- continue breadboarding effects (2)
+		
 	Chris Crider
-		-continued testing effects and refining schematics (2)
+		- continued testing effects and refining schematics (2)
 		- continued to take stock of parts needed (1)
 	
 ##Blocked
 	Team Blocks
-		-Deciding how in fleshed out each of the effects for the Synth should be and the cost/return of doing more or less complex effects.
+		- Deciding how in fleshed out each of the effects for the Synth should be and the cost/return of doing more or less complex effects.
+		
 	Eric Sanman
 		- Nothing
+		
 	Chuong Vo
-		-Nothing blocked
+		- Nothing blocked
+		
 	Sierra Buckley
 		- effects are hard
+		
 	Chris Crider
-		-nothing
+		- nothing
 	
 	
 # PWM Hybrid Synth Weekly Progress Report
@@ -168,10 +180,10 @@
 
 ## Last Week (time in hours)
 	Team Review
-		-Finalized Schematic with Team Member sign off and added to both Git and Canvas
-		-Combined all modules into one circuit and tested the combined circuit, uploading the Breadboard Prototype onto Git and Canvas 
-		-Completed and signed off on ongoing project scheadule via Gantt Chart which was uploaded to both Git and Canvas
-		-Began looking into surface mount components to be used on PCB
+		- Finalized Schematic with Team Member sign off and added to both Git and Canvas
+		- Combined all modules into one circuit and tested the combined circuit, uploading the Breadboard Prototype onto Git and Canvas 
+		- Completed and signed off on ongoing project scheadule via Gantt Chart which was uploaded to both Git and Canvas
+		- Began looking into surface mount components to be used on PCB
 		
 	Eric Sanman
         - Worked on adding fancier formatting to the schematics (1)
@@ -183,15 +195,15 @@
 	Sierra Buckley
 		- circuit debugging and testing (8)
 	Chris Crider
-		-Helped with gannt chart layout (2)
-		-matching kicad schematics to hand drawn and LTspice schematics locating errors and moving things where needed (3)
+		- Helped with gannt chart layout (2)
+		- matching kicad schematics to hand drawn and LTspice schematics locating errors and moving things where needed (3)
 	
 	
 ##Next Week
 	Team Plan
-		-Begin work on compiling together components onto a Bill of Materials
-		-Finalize the circuit connections and compose a L0 and L1 Functional Decomposition
-		-Begin to clean up CAD layout and add component traces
+		- Begin work on compiling together components onto a Bill of Materials
+		- Finalize the circuit connections and compose a L0 and L1 Functional Decomposition
+		- Begin to clean up CAD layout and add component traces
 	Eric Sanman
         - Work on enhancing the layout in KiCad, adding (6):
             - Mounting holes
@@ -214,17 +226,16 @@
 	
 ##Blocked
 	Team Blocks
-		-
+		- Chorus module update for PCB
 	Eric Sanman
 		- Finaliztion of PCB depends on sucessful test of chorus module
 	Chuong Vo
 		- Finding components that are in stock and ship quickly
-		
 	Sierra Buckley
 		- chorus is difficult to get working
 		- components needed for testing (EPL)
 	Chris Crider
-		-helped debug chorus circuit (4)
+		- helped debug chorus circuit (4)
 	
 # PWM Hybrid Synth Weekly Progress Report
 #Report date: 2024-11-14 
@@ -288,19 +299,21 @@
 	Sierra Buckley
 		- none
 	Chris Crider
+		- none
 
 # PWM Hybrid Synth Weekly Progress Report
 # Report date: 2024-11-21 
 
 ## Last Week (time in hours)
 	Team Review
-		-Finalized CAD Schematic and PCB Layout
-		-Design Reviewed and got reviewed by Team 9 and Team 12
-		-Sent Finzlized PCB over to OSH Park to be fabricated.
+		- Finalized CAD Schematic and PCB Layout
+		- Design Reviewed and got reviewed by Team 9 and Team 12
+		- Sent Finzlized PCB over to OSH Park to be fabricated.
 		
 	Eric Sanman
-
-		
+		- Worked with the team to implement final circuit changes to the PCB (3)
+		- Export files for fabrication (.25)
+		- Order PCB!!! (.5)
 	Chuong Vo
 		- Design Reviewed Teams 9 and 12 (3)
 		- Quality check and Finalized PCB (2)
@@ -310,33 +323,36 @@
 		- PCB finalization with team (2)
 
 	Chris Crider
-		-worked through final amount of debugging and rearranging parts for effects (2)
+		- worked through final amount of debugging and rearranging parts for effects (2)
 		- began testing OLED and PWM functions in unison with effects (2)
 	
 	
 ##Next Week
 	Team Plan
-		-Coordinate and pick a time to do presentation
-		-Begin to plan what to do/say in presentation.
+		- Coordinate and pick a time to do presentation
+		- Begin to plan what to do/say in presentation.
+		- Wait for PCB to arrive for build and test
 
 	Eric Sanman
- 
+		- Wait for PCB to arrive (time n/a)
+		- Wait for parts to arrive (time n/a)
+		- (taking break from project for a mideterm & thanksgiving during this time)
 	Chuong Vo
-		-Sign up for Demo time (1)
-		-Wait in anticipation for PCB and parts to arrive 
+		- Sign up for Demo time (1)
+		- Wait in anticipation for PCB and parts to arrive 
 	Sierra Buckley
 		- thanksgiving week, sign up for demo time (1)
 	
 	Chris Crider
-	-Thanksgiving no meetings
+		- Thanksgiving no meetings
 	
 ##Blocked
 	Team Blocks
 		-Finding time that works for all times to coordinate design reviews.
 	Eric Sanman
-	
+		- Wait for parts
 	Chuong Vo
-		-Nothing blocked
+		- Nothing blocked
 		
 	Sierra Buckley
 		- none
@@ -348,34 +364,34 @@
 
 ## Last Week (time in hours)
 	Team Review
-		-Received PCB back from OSH Park and began to mess around with it
-		-No real Progress or meetings due to thanksgiving
-	 
+		- Received PCB back from OSH Park and began to build
+		- No real Progress or meetings due to thanksgiving
 		
 	Eric Sanman
-
+		- No work on break (0)
 		
 	Chuong Vo
-		-Thanksgiving break, the team did not meet
+		- Thanksgiving break, the team did not meet
 	
 	Sierra Buckley
 		- thanksgiving week!
 
 	Chris Crider
-		-Thanksgiving, didn't meet
+		- Thanksgiving, didn't meet
 	
 	
 ##Next Week
 	Team Plan
-		-Begin to discuss and build PCB housing
-		-Continue to assemble/Solder PCB
-		-Begin Testing PCB to ensure that each component and module works as intended.
+		- Begin to discuss and build PCB housing
+		- Continue to assemble/Solder PCB
+		- Begin Testing PCB to ensure that each component and module works as intended.
 
 	Eric Sanman
- 
+		- Work with the team to come up with the test plan. (2)
+		- Teach team how to SMD solder with spare amp boards, assemble and help team assemble the board (6)
 	Chuong Vo
-		-Create Test Plan for finalized project (3)
-		-Began to solder surface mounted components onto PCB. (2)
+		- Create Test Plan for finalized project (3)
+		- Began to solder surface mounted components onto PCB. (2)
 
 	Sierra Buckley
 		- test plan working with team (3)
@@ -388,7 +404,7 @@
 	
 ##Blocked
 	Team Blocks
-		-Waiting on Components and PCB to arrive. 
+		- Waiting on Components and PCB to arrive. 
 	Eric Sanman
 	
 	Chuong Vo
@@ -404,25 +420,26 @@
 
 ## Last Week (time in hours)
 	Team Review
-		-Completed Test plan for when the board is fully assembled
-		-Finalized the soldering of all the surface mounted components
-		-Began doing quality checks and testing of surface mounted components
+		- Completed Test plan for when the board is fully assembled
+		- Finalized the soldering of all the surface mounted components
+		- Began doing quality checks and testing of surface mounted components
 		
 	Eric Sanman
-
+		- Testing board in capstone lab with Chris, mostly worked the first time (4)
+		- Placed second DigiKey order with part changes from bodging w/ two-day shipping (1)
 		
 	Chuong Vo
-		-Creating a test plan that ensures the modules are properly tested for their intended effects (3)
-		-Soldering components onto PCB (2)
-		-Began to Test PCB by sending a function generated signal through and reading outputs using (2)
+		- Creating a test plan that ensures the modules are properly tested for their intended effects (3)
+		- Soldering components onto PCB (2)
+		- Began to Test PCB by sending a function generated signal through and reading outputs using (2)
 	
 	Sierra Buckley
 		- test plan working with team (3)
 
 	Chris Crider
-		-Began presentation editing (2) 
-		-Testing working prototype in capstone lab (lots of noise) (3)
-		-finalized ideas for button and pot layout (1)
+		- Began presentation editing (2) 
+		- Testing working prototype in capstone lab (lots of noise) (3)
+		- finalized ideas for button and pot layout (1)
 	
 	
 ##Next Week
@@ -433,12 +450,15 @@
 		-Create Presentation Slideshow
 
 	Eric Sanman
- 
+		- Swap parts with parts from second Digi-Key order (2)
+		- Final assembly changes (1)
+		- Pass board off to Sierra for debug (0)
+		- Give dimensions to Sierra for plexiglass enclosure (.5)
 	Chuong Vo
-		-Finalize the assembly of the PCB (3)
-		-Thouroughly Test every module of the project and debug where necessary (6)
-		-Complete the Presentation Slides (4)
-		-Complete Catme Survey (1) 
+		- Finalize the assembly of the PCB (3)
+		- Thouroughly Test every module of the project and debug where necessary (6)
+		- Complete the Presentation Slides (4)
+		- Complete Catme Survey (1) 
 		
 	Sierra Buckley
 		- testing with everything (8)
@@ -456,9 +476,11 @@
 	
 ##Blocked
 	Team Blocks
-	
+		- none
+		
 	Eric Sanman
-	
+		- none
+		
 	Chuong Vo
 		-Nothing Blocked
 	
@@ -466,27 +488,29 @@
 		- none
 
 	Chris Crider
-
+		- none
+		
 # PWM Hybrid Synth Weekly Progress Report
 # Report date: 2024-12-12
 
 ## Last Week (time in hours)
 	Team Review
 	 - last progress report!
-		-Completed the Assembly of the PCB
-		-Completed all testing for the PCB
-		-Created Case for PCB
-		-Created and in the process of finalizing the Presentation Slideshow
+		- Completed the Assembly of the PCB
+		- Completed all testing for the PCB
+		- Created Case for PCB
+		- Created and in the process of finalizing the Presentation Slideshow
 		
 	Eric Sanman
-
+		- Final assembly of project (8)
+		- Helping team with odds and ends of project (documentation, etc.) (4)
 		
 	Chuong Vo
-		-Began to Test PCB by sending a function generated signal through and reading outputs using Oscilloscope (2)
-		-Finalize PCB assembly (4)
-		-Thouroughly Test every module of the project and debug where necessary (6)
-		-Complete the Presentation Slides (4)
-		-Complete Catme Survey (1)
+		- Began to Test PCB by sending a function generated signal through and reading outputs using Oscilloscope (2)
+		- Finalize PCB assembly (4)
+		- Thouroughly Test every module of the project and debug where necessary (6)
+		- Complete the Presentation Slides (4)
+		- Complete Catme Survey (1)
 	
 	Sierra Buckley
 		- testing with everything (8)
@@ -502,11 +526,13 @@
 	
 ##Next Week
 	Team Plan
-		-Practice for Demo Presentation
-		-Demo Presentation
+		- Practice for Demo Presentation
+		- Demo Presentation
 
 	Eric Sanman
- 
+		- Practice part of presentation for Friday
+		- Make sure everything is ready to go 
+		
 	Chuong Vo
 
 	Sierra Buckley
@@ -514,16 +540,21 @@
 		- end of term
 	
 	Chris Crider
+		- Practice presentation
 	
 	
 ##Blocked
 	Team Blocks
-	
+		- none
+		
 	Eric Sanman
-	
+		- none
+		
 	Chuong Vo
-		-Nothing Blocked
+		- Nothing Blocked
+		
 	Sierra Buckley
 		- none
 
 	Chris Crider
+		- none
