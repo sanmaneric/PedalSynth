@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Synthesizer Project" company="Personal Project" webLink="" view-date="2024-10-27" view-index="0" gantt-divider-location="737" resource-divider-location="300" version="3.3.3312" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Synthesizer Project" company="Personal Project" webLink="" view-date="2024-10-27" view-index="0" gantt-divider-location="722" resource-divider-location="300" version="3.3.3312" locale="en_US">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd15" name="Notes" width="20" order="0"/>
-        <field id="tpd3" name="Name" width="329" order="0"/>
+        <field id="tpd3" name="Name" width="322" order="0"/>
         <field id="tpd14" name="Task color" width="20" order="1"/>
-        <field id="tpd4" name="Begin date" width="75" order="1"/>
-        <field id="tpd5" name="End date" width="85" order="2"/>
-        <field id="tpd7" name="Completion" width="60" order="3"/>
-        <field id="tpd6" name="Duration" width="61" order="4"/>
-        <field id="tpd9" name="Predecessors" width="49" order="5"/>
-        <field id="tpd1" name="Priority" width="62" order="6"/>
+        <field id="tpd4" name="Begin date" width="73" order="1"/>
+        <field id="tpd5" name="End date" width="83" order="2"/>
+        <field id="tpd7" name="Completion" width="59" order="3"/>
+        <field id="tpd6" name="Duration" width="60" order="4"/>
+        <field id="tpd9" name="Predecessors" width="48" order="5"/>
+        <field id="tpd1" name="Priority" width="61" order="6"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[42,9,38,27,19,23,14,52,1,5,35]]></timeline>
+        <timeline><![CDATA[42,23,35,14,5,52,9,27,1,19,38]]></timeline>
         <option id="color.recent"><![CDATA[#ff6666 #33ff33 #99ff00 #ffff33 #ff0000 #ff0066 #cc00ff #0000ff #0033ff #0066ff]]></option>
     </view>
     <view id="resource-table">
@@ -225,26 +225,26 @@
                 <depend id="76" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="38" uid="8c8f856e7d7841cbb1569952cb76d6dc" name="Final Testing and Quality Assurance" color="#99ff00" meeting="false" start="2024-11-22" duration="18" complete="90" expand="true">
+        <task id="38" uid="8c8f856e7d7841cbb1569952cb76d6dc" name="Final Testing and Quality Assurance" color="#99ff00" meeting="false" start="2024-11-22" duration="18" complete="100" expand="true">
             <task id="73" uid="44ca75cb1dc74dfeb8c8c426bc430d7a" name="Come up with Test Plan" meeting="false" start="2024-11-22" duration="1" complete="100" expand="true">
                 <depend id="39" type="2" difference="0" hardness="Strong"/>
                 <depend id="40" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="39" uid="c941e4519e9a40a28341a0f5d67fac7d" name="Extended Functionality Testing" meeting="false" start="2024-11-23" duration="5" complete="90" expand="true">
+            <task id="39" uid="c941e4519e9a40a28341a0f5d67fac7d" name="Extended Functionality Testing" meeting="false" start="2024-11-23" duration="5" complete="100" expand="true">
                 <depend id="40" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="40" uid="d855e1d2080449d3a378d4d318090b3e" name="Performance Testing" meeting="false" start="2024-11-28" duration="5" complete="90" expand="true">
+            <task id="40" uid="d855e1d2080449d3a378d4d318090b3e" name="Performance Testing" meeting="false" start="2024-11-28" duration="5" complete="100" expand="true">
                 <depend id="76" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="76" uid="d5b4a6f5544f43bd9f74c0864055a923" name="Make Last Minute Changes" meeting="false" start="2024-12-09" duration="1" complete="90" expand="true">
+            <task id="76" uid="d5b4a6f5544f43bd9f74c0864055a923" name="Make Last Minute Changes" meeting="false" start="2024-12-09" duration="1" complete="100" expand="true">
                 <depend id="44" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="42" uid="a5d1c84462304261a2c9a5ae4a64021f" name="Documentation and Finalization" color="#33ff33" meeting="false" start="2024-11-29" duration="15" complete="56" expand="true">
-            <task id="43" uid="7507788f72e34bf89af415cb76b06eeb" name="Finalize Project Documentation" meeting="false" start="2024-11-29" duration="5" complete="60" expand="true">
+        <task id="42" uid="a5d1c84462304261a2c9a5ae4a64021f" name="Documentation and Finalization" color="#33ff33" meeting="false" start="2024-11-29" duration="15" complete="83" expand="true">
+            <task id="43" uid="7507788f72e34bf89af415cb76b06eeb" name="Finalize Project Documentation" meeting="false" start="2024-11-29" duration="5" complete="100" expand="true">
                 <depend id="44" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="44" uid="e5df9ea613dc441b87b2bbe8a7fac913" name="Finalize Project" meeting="false" start="2024-12-10" duration="2" complete="80" expand="true">
+            <task id="44" uid="e5df9ea613dc441b87b2bbe8a7fac913" name="Finalize Project" meeting="false" start="2024-12-10" duration="2" complete="100" expand="true">
                 <depend id="79" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="79" uid="8778928829934c6382175feba862e782" name="Presentations" meeting="false" start="2024-12-12" duration="2" complete="25" expand="true"/>
