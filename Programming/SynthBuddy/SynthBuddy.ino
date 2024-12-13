@@ -1,83 +1,89 @@
-#include <driver/ledc.h>
+#include <Arduino.h>
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// Define PWM properties
-#define PWM_RESOLUTION 8     // Resolution in bits (0-255)
-#define PWM_CHANNEL 0        // PWM channel number
-#define PWM_PIN 35           // Pin for PWM output
-#define OLED_RESET -1        // Reset pin for OLED (not used)
-#define SCREEN_ADDRESS 0x3C  // I2C address of the OLED
+#define OLED_RESET 4
+Adafruit_SSD1306 display(OLED_RESET);
 
-// Button pins for frequency selection
-const int buttonPins[] = {12, 14, 25, 26, 27, 32, 33};
+#define PWM_PIN 23
+#define PWM_RESOLUTION 8
+#define PWM_FREQ 50000
+
+const int buttonPins[] = {12, 14, 27, 26, 25, 33, 32};
+const float frequencies[] = {130.8, 146.8, 164.8, 174.2, 196.0, 220.0, 246.94};
 const int numButtons = sizeof(buttonPins) / sizeof(buttonPins[0]);
 
-// Frequency options in Hz
-const int frequencies[] = {130.81, 146.83, 164.81,  174.61, 196.00, 220.00, 246.94};
-int currentFrequencyIndex = 0; // Current frequency index
+hw_timer_t *timer = NULL;
+volatile bool waveActive = false;
+volatile uint8_t sineIndex = 0;
+volatile float currentFrequency = 0;
+const int sineTableSize = 256;
+uint8_t sineTable[sineTableSize];
 
-// OLED display object
-Adafruit_SSD1306 display(128, 64, &Wire, OLED_RESET);
+void IRAM_ATTR onTimer() {
+  if (waveActive) {
+    uint8_t pwmValue = sineTable[sineIndex];
+    ledcWrite(0, pwmValue);
+    sineIndex = (sineIndex + 1) % sineTableSize;
+  } else {
+    ledcWrite(0, 0); // Turn off PWM when no button is pressed
+  }
+}
 
 void setup() {
-  Serial.begin(115200);
-
-  // Initialize the OLED display
-  if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306 allocation failed"));
-    for (;;);
-  }
+  // Initialize OLED display
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
-  display.display();
 
-  // Setup PWM on the specified pin
-  ledcSetup(PWM_CHANNEL, frequencies[currentFrequencyIndex], PWM_RESOLUTION);
-  ledcAttachPin(PWM_PIN, PWM_CHANNEL);
+  // Initialize sine wave lookup table
+  for (int i = 0; i < sineTableSize; i++) {
+    sineTable[i] = (sin(2 * PI * i / sineTableSize) + 1.0) * 127.5;
+  }
 
-  // Setup button pins as input with internal pull-up resistors
+  // Configure buttons as inputs with pull-up resistors
   for (int i = 0; i < numButtons; i++) {
     pinMode(buttonPins[i], INPUT_PULLUP);
   }
 
-  // Initial display update
-  updateDisplay();
+  // Configure PWM on the output pin
+  ledcSetup(0, PWM_FREQ, PWM_RESOLUTION);
+  ledcAttachPin(PWM_PIN, 0);
+
+  // Initialize timer
+  timer = timerBegin(0, 80, true); // 80 prescaler for 1 µs ticks
+  timerAttachInterrupt(timer, &onTimer, true);
+  timerAlarmWrite(timer, 100, true); // 100 µs (10 kHz timer frequency)
+  timerAlarmEnable(timer);
 }
 
 void loop() {
-  // Check each button
+  waveActive = false;
   for (int i = 0; i < numButtons; i++) {
     if (digitalRead(buttonPins[i]) == LOW) {
-      // Change frequency based on the button pressed
-      currentFrequencyIndex = i;
-      ledcSetup(PWM_CHANNEL, frequencies[currentFrequencyIndex], PWM_RESOLUTION);
-      ledcAttachPin(PWM_PIN, PWM_CHANNEL);
+      waveActive = true;
+      currentFrequency = frequencies[i];
+      sineIndex = 0;
 
-      // Update OLED display
-      updateDisplay();
+      // Adjust timer frequency for current sine wave
+      timerAlarmWrite(timer, (1000000 / currentFrequency) / sineTableSize, true);
 
-      // Debounce delay
-      delay(200);
+      // Update OLED display with current frequency
+      display.clearDisplay();
+      display.setTextSize(1);
+      display.setTextColor(WHITE);
+      display.setCursor(0, 0);
+      display.println("SynthBuddy");
+
+      display.setCursor(0, 16);
+      display.setTextSize(1);
+      display.println("Frequency:");
+      display.print(currentFrequency);
+      display.println(" Hz");
+
+      display.display();
+      break;
     }
   }
-}
-
-void updateDisplay() {
-  // Clear the display
-  display.clearDisplay();
-
-  // Display the current frequency
-  display.setTextSize(1);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 0);
-  display.println(F("Frequency Control"));
-  display.setTextSize(2);
-  display.setCursor(0, 20);
-  display.print(frequencies[currentFrequencyIndex]);
-  display.println(F(" Hz"));
-
-  // Update the display
-  display.display();
 }
