@@ -16,7 +16,7 @@ const int buttonPins[] = {12, 14, 25, 26, 27, 32, 33};
 const int numButtons = sizeof(buttonPins) / sizeof(buttonPins[0]);
 
 // Frequency options in Hz
-const int frequencies[] = {500, 1000, 2000, 3000, 4000, 5000, 6000};
+const int frequencies[] = {130.81, 146.83, 164.81,  174.61, 196.00, 220.00, 246.94};
 int currentFrequencyIndex = 0; // Current frequency index
 
 // OLED display object
