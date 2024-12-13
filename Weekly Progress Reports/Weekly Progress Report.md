@@ -1,108 +1,108 @@
 # SynthBuddy Weekly Progress Report
-#Report date: 2024-10-17
+## Report date: 2024-10-17
 
 ## Last Week (time in hours)
-	Team Review
+	- **Team Review**
 		- We began to generate potential project ideas and discuss the best way to set up a collaboration site. A definitive project has already been chosen but generating additonal projects to "pick" is a bit more tricky then expected.
-	Eric Sanman
+	- **Eric Sanman**
 		- Began to set up collaboration site and look into using KiCad (3)
-	Chuong Vo
+	- **Chuong Vo**
 		- Began researching the best processor to use for the project and the differences between arduino microcontrollers and Atmel microcontrollers (2)
-	Sierra Buckley
+	- **Sierra Buckley **
 		- watching kicad videos and becoming familiar with it (2)
 		- researching effects pedals for our design (2)
-	Chris Crider
-		-Began researching ideas for projects including effects for possible synth project (2)
-		-learning kicad and git for use on the project (1)
+	- **Chris Crider**
+		- Began researching ideas for projects including effects for possible synth project (2)
+		- learning kicad and git for use on the project (1)
 	
 ##Next Week
-	Team Plan
+	- **Team Plan**
 		- Set up the collaboration site and finalize the proposal for three different projects and choose one.
 		- Begin to brainstorm ideas and write the Product Design Specification
-	Eric Sanman
+	- **Eric Sanman**
 		- Become more familiar with Kicad and Markdown (3)
 		- Begin to create a preliminary Class-D amplifier design in KiCad (4)
-	Chuong Vo
+	- **Chuong Vo**
 		- Finalize research of microcontrollers and report findings to team (2)
 		- Choose a microcontrollers and begin research on potential libraries that could be used to for the synthesizer (2)
-	Sierra Buckley
+	- **Sierra Buckley**
 		- choose filters to design, model in LTspice (4)
-	Chris Crider
+	- **Chris Crider**
 		- Familiarized myself with the sites were using (.5)
 		- began modeling effects circuits (2)
 	
 ##Blocked
-	Eric Sanman
+	- **Eric Sanman**
 		- none
-	Chuong Vo
+	- **Chuong Vo**
 		- Nothing blocked
-	Sierra Buckley
+	- **Sierra Buckley**
 		- none
-	Chris Crider
+	- **Chris Crider**
 	
 	
 # PWM Hybrid Synth Weekly Progress Report
-#Report date: 2024-10-24
+## Report date: 2024-10-24
 
 ## Last Week (time in hours)
-	Team Review
+	- **Team Review**
 		- The collaboration site was officially launched and the three projects, pick one assignment was submitted
 		- Work began on the Product Design Specification after a group meeting on 10-17-24 with good progress being made but it is still being written up.
-	Eric Sanman
+	- **Eric Sanman**
 		- Created collaboration site (1)
         - Gave team a basic introduction and overview of Git (1)
         - Continued to work on Class-D amplifier design in KiCad (finalize layout, ground stiching, etc.) (4)
         - Select and order parts for amplifier from DigiKey (2)
         - Ordered Class-D amplifier from OSH Park (.5)
-	Chuong Vo
+	- **Chuong Vo**
 		- Finalized microcontroller research and chose the best option to use for the Synth project (an ESP32 WRoom using Arduino) (2)
 		- Began to looking into Arduino libaries for PWM and signal generation(1)
-	Sierra Buckley
+	- **Sierra Buckley**
 		- chose filters to design, modeled in LTspice (4)
 		- git tutorial from Eric :) (1)
 		- also sick (?)
-	Chris Crider
+	- **Chris Crider**
 		- Began designing schematics that would be put into final schematic (4)
 		- researching libraries for esp32 to create pwm output (.5)
  		- worked on PDS (1)
 	
 ##Next Week
-	Team Plan
+	- **Team Plan**
 		- Set up the collaboration site and finalize the proposal for three different projects and choose one.
 		- Begin to brainstorm ideas and write the Product Design Specification
 		- Begin assembling Breadboard Prototype
-	Eric Sanman
+	- **Eric Sanman**
 		- Receive board from OSH Park and parts from DigiKey (0)
         - Begin built & test of Class-D amplifier (4)
         - Work with the team on integrating other modules in KiCad (2)
-	Chuong Vo
+	- **Chuong Vo**
 		- Finalize research of Arduino libaries for PWM/Signal Generation (2)
 		- Begin to watch tutorials to understand KiCad usage (2)
 		- Begin making a basic schematic for the ESP32 (1)
-	Sierra Buckley
+	- **Sierra Buckley**
 		- Redo work on PDS, block diagrams (2)
 		- get healthy (?)
-	Chris Crider
+	- **Chris Crider**
 		- Helped edit PDS (1)
 		- began building prototype for tremolo and fuzz effects (3)
 		- reviewing kicad to send over finalized effect schematics (2)
 	
 ##Blocked
-	Eric Sanman
+	- **Eric Sanman**
 		- Wait for amplifier board to arrive
         - Wait for parts to arrive
-	Chuong Vo
+	- **Chuong Vo**
 		- Nothing blocked
-	Sierra Buckley
+	- **Sierra Buckley**
 		- none
-	Chris Crider
+	- **Chris Crider**
 		- none
 	
 # PWM Hybrid Synth Weekly Progress Report
-#Report date: 2024-10-31
+## Report date: 2024-10-31
 
 ## Last Week (time in hours)
-	Team Review
+	- **Team Review**
 		- The product design Specification was completed and added to both Canvas and Git
 		- Work Began on a Design Matrix and AHP Methodologies to officially pick a project
 		- Design work began on Kikad for the priliminary schematic of the synthesizer.
