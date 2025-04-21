@@ -30,7 +30,7 @@ SynthBuddy is licensed under a GNU/GPL v3 license.
 Things Andrew would want to look at:
  - :white_check_mark: [View PDS](https://github.com/sanmaneric/PedalSynth/blob/main/Product%20Development/ProductDescriptionSpecification-Team8.pdf)
  - :date: [Browse Weekly Progress Reports](https://github.com/sanmaneric/PedalSynth/blob/main/Weekly%20Progress%20Reports/Weekly%20Progress%20Report.md)
-  - :camera: [Progress Photos & Videos](https://github.com/sanmaneric/PedalSynth/blob/main/Weekly%20Progress%20Reports/Weekly%20Progress%20Report.md)
-  - :date: [View Gantt Chart](https://github.com/sanmaneric/PedalSynth/blob/main/Weekly%20Progress%20Reports/Weekly%20Progress%20Report.md)
+  - :camera: [Progress Photos & Videos](https://github.com/sanmaneric/PedalSynth/tree/main/Weekly%20Progress%20Reports/Progresss%20Photos)
+  - :date: [View Gantt Chart](https://github.com/sanmaneric/PedalSynth/blob/main/Gantt%20Chart/ECE%20411%20PWM%20Hybrid%20Synth%20Pedal.pdf)
  - :technologist: [View Code](https://github.com/sanmaneric/PedalSynth/tree/main/Programming)
  - :white_check_mark: [View KiCad PDF Exports](https://github.com/sanmaneric/PedalSynth/tree/main/Electrical%20Design/Docs)
